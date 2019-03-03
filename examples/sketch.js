@@ -4,27 +4,23 @@ function setup() {
   createCanvas(400, 400);
   background(100, 0, 0);
   
-  mb = new MomentaryButton(100, 200, 100, 100, "X", myCallback1);
-  mb.setCallback(myCallback2);
+  mb = createMomentary(100, 100, 100, 50, "X", momentaryCallback);
+  mb.setPosition(100, 200);
+  mb.setSize(100, 100);
   mb.setRound(10);
-  
-  // There are 3 modes for a momentary button
+  // There are 3 modes for a momentary button: DOWN, UP, HOLD
   mb.setMode(DOWN);
-  //  mb.setMode(UP);
-  //  mb.setMode(HOLD);
   
-  tb = new ToggleButton(300, 200, 100, 100, "X", myCallback3, myCallback4);
-  tb.setRound(10);
-  
-  // There are 2 modes for a toggle button
+  tb = createToggle(300, 200, 100, 100, "X", toggleOn, toggleOff);
+  // There are 2 modes for a toggle button: DOWN, UP
   tb.setMode(DOWN);
-  //  tb.setMode(UP);
 }
 
 function draw() {
-  // put drawing code here
   background(100, 0, 0, 32);
   
+  // Simply call a button's draw() function for it to 
+  // update and display
   mb.draw();
   tb.draw();
   
@@ -36,22 +32,18 @@ function draw() {
 }
 
 // Example callback functions
-function myCallback1() {
-  print("BUTTON PRESSED.");
-}
-
-function myCallback2() {
+function momentaryCallback() {
   fill(255);
   textAlign(CENTER);
   text("BUTTON PRESSED.", 100, 350);
 }
 
-function myCallback3() {
+function toggleOn() {
   state = true;
   print("BUTTON TOGGLED ON.");
 }
 
-function myCallback4() {
+function toggleOff() {
   state = false;
   print("BUTTON TOGGLED OFF.");
 }
