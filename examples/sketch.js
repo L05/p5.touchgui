@@ -1,47 +1,99 @@
 let mb, tb, tbState;
+let palette;
 
-function setup() {
-  createCanvas(400, 400);
-  background(100, 0, 0);
+function setup() {  
+  createCanvas(windowWidth, windowHeight);
+  palette = [color('#C9F0FF'), 
+             color('#FCFCFC'), 
+             color('#EFEFF0'), 
+             color('#D5CAD6'), 
+             color('#6B5E62')]
   
+  background(palette[1]);
+
   // create momentary button
-  mb = createMomentary(100, 100, 100, 50, "X", momentaryCallback);
-  mb.position(100, 200);
-  mb.size(100, 100);
-  mb.round(10);
-  mb.touchMode(DOWN); // options: DOWN, UP, HOLD
+  mb = createMomentary(width*0.25, 
+                       height*0.5, 
+                       width*0.25, 
+                       width*0.1, 
+                       "Momentary", 
+                       momentaryCallback);
+  mb.textSize   = width*0.025;
+  mb.round      = 20;
+  mb.fillOff    = palette[2];
+  mb.fillOn     = palette[0];
+  mb.stroke     = palette[3];
+  mb.labelColor = palette[4];
+  mb.touchMode  = HOLD; // options: DOWN, UP, HOLD
   
   // create toggle button
-  tb = createToggle(300, 200, 100, 100, "X", toggleOn, toggleOff);
-  tb.touchMode(DOWN); // options: DOWN, UP
-  
+  tb = createToggle(width*0.75, 
+                    height*0.5, 
+                    width*0.25, 
+                    width*0.1, 
+                    "Toggle", 
+                    toggleOn, 
+                    toggleOff);
+  tb.textSize   = width*0.025;
+  tb.round      = 20;
+  tb.fillOff    = palette[2];
+  tb.fillOn     = palette[0];
+  tb.stroke     = palette[3];
+  tb.labelColor = palette[4];
+  tb.touchMode = DOWN; // options: DOWN, UP
+//  
   // styling for text popups
-  fill(255);
+  fill(0);
   textAlign(CENTER);
+  textSize(width*0.025);
 }
 
 function draw() {
-  background(100, 0, 0, 32);
+  background(252, 42);
+  drawFrameRate(40, 40);
   
   mb.draw();
   tb.draw();
   
   if (tbState) {   
-    text("BUTTON TOGGLED.", 300, 350);
+    fill(0);
+    text("BUTTON TOGGLED.", width*0.75, height*0.75);
   }
 }
 
 // callback functions
 function momentaryCallback() {
-  text("BUTTON PRESSED.", 100, 350);
+  fill(0);
+  text("BUTTON PRESSED.", width*0.25, height*0.75);
 }
 
 function toggleOn() {
   tbState = true;
-  print("BUTTON TOGGLED ON.");
 }
 
 function toggleOff() {
   tbState = false;
-  print("BUTTON TOGGLED OFF.");
 }
+
+// add these lines below to sketch to prevent scrolling
+function mousePressed(e) {
+  return false;
+}
+
+// to help with monitoring framerate during development
+function drawFrameRate(x, y) {
+  push();
+    fill('black');
+    rectMode(CENTER);
+    rect(x, y, 40, 40, 10);
+  
+    fill('white');
+    textAlign(CENTER, CENTER);
+    textSize(20);
+    text(int(frameRate()), x, y)
+  pop();
+}
+
+document.addEventListener('gesturestart', function(e) {
+  e.preventDefault();
+});
