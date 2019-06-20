@@ -1,0 +1,29 @@
+{
+  "name": "p5.touchgui",
+  "version": "1.0.0",
+  "description": "An easy-to-use touchscreen UI library for p5.js\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[\u001b[3~\u001b[3~\u001b[3~\u001b[3~\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[CUI library.\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[-use p5.js user interface library.",
+  "main": "lib/p5.touchgui.js",
+  "directories": {
+    "example": "examples",
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/L05/p5.touchgui.git"
+  },
+  "keywords": [
+    "p5.js",
+    "touchscreen",
+    "ui",
+    "gui"
+  ],
+  "author": "L05 <carlosga@gmail.com> (http://l05.is/)",
+  "license": "LGPL-2.1",
+  "bugs": {
+    "url": "https://github.com/L05/p5.touchgui/issues"
+  },
+  "homepage": "https://github.com/L05/p5.touchgui#readme"
+}
