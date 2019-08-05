@@ -44,6 +44,6 @@
 # EXAMPLES
 - One for each object
 - Interaction mode example
-- Callback example
+- ~~Callback example~~
 - Some sample layouts
 - Get examples from other people
