@@ -1,9 +1,11 @@
+let gui;
+
 // Create a variable for your checkbox
 let cb1;
 
 function setup() {
   createCanvas(400, 400);
-  createGui();
+  gui = createGui();
   
   // Create Checkbox 1
   cb1 = createCheckbox("Checkbox 1", 150, 50, 100, 100);
@@ -25,12 +27,3 @@ function draw() {
     ellipse(200, 300, 100);
   }
 }
-
-/// Add these lines below to sketch to prevent scrolling (useful for mobile)
-function mousePressed(e) {
-  return false;
-}
-
-document.addEventListener('gesturestart', function(e) {
-  e.preventDefault();
-});

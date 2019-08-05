@@ -33,6 +33,8 @@ function draw() {
   background(220);
   updateGui();
   
+  // Check if GUI object have been .pressed, .changed, .held, or .released
+  // and act accordingly.
   if(b1.pressed) { print(b1.label + " pressed."); }
   if(s1.changed) { print(s1.label + " = " + s1.val); }
   if(s2.changed) { print(s2.label + " = " + s2.val); }
@@ -54,6 +56,7 @@ function draw() {
   drawFps(2);
 }
 
+// Creates a simple layout
 function simpleLayout() {
   b1 = createButton("Button 1", 50, 50);
   b2 = createButton("Button 2", 200, 50);
@@ -66,6 +69,7 @@ function simpleLayout() {
   s2d1 = createSlider2d("Slider2d 1", 150, 200, 178, 150);
 }
 
+// Creates a layout based on the resolution of the screen
 function mobileLayout() {
   let w = width;
   let h = height;
@@ -99,7 +103,7 @@ function drawFps(duration) {
   pop();
 }
 
-/// Add these lines below to sketch to prevent scrolling
+/// Add these lines below sketch to prevent scrolling
 function mousePressed(e) {
   return false;
 }
