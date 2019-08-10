@@ -11,8 +11,8 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
   gui = createGui();
   
-  simpleLayout(); // <- uncomment for simple layout
-  // mobileLayout(); // <- uncomment for mobile layout  
+  // simpleLayout(); // <- uncomment for simple layout
+  mobileLayout(); // <- uncomment for mobile layout  
   
   // Set style to Blue!
   gui.style.Blue();

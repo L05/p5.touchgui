@@ -14,7 +14,9 @@ function setup() {
   gui = createGui();
   
   // simpleLayout(); // <- uncomment for simple layout
-  mobileLayout(); // <- uncomment for mobile layout  
+  mobileLayout(); // <- uncomment for mobile layout
+  
+  cb1.mode = "onRelease";
   
   // Set style to Blue!
   gui.style.Blue();
@@ -23,8 +25,6 @@ function setup() {
 function draw() {
   background(220);
   updateGui();
-  
-  
   
   drawFps(2);
 }
