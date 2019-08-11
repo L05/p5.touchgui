@@ -13,7 +13,7 @@ function setup() {
 
 function draw() {
   background(220);
-  updateGui();
+  drawGui();
   
   if (cb1.pressed) {
     // Print a message when Checkbox 1 is pressed

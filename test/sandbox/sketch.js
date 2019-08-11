@@ -24,7 +24,7 @@ function setup() {
 
 function draw() {
   background(220);
-  updateGui();
+  drawGui();
   
   drawFps(2);
 }

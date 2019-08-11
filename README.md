@@ -37,20 +37,20 @@ function setup() {
   b = createButton("myButton", 50, 50);
 }
 ```
-3. Make sure to call `updateGui()` in your `draw()` loop. You can call it anywhere, but make sure to do so after you draw your `background()`. 
+3. Make sure to call `drawGui()` in your `draw()` loop. You can call it anywhere, but make sure to do so after you draw your `background()`. 
 
 	If you run your sketch now, you should see your button drawn on the screen at an *x* position of 50 and a *y* position of 50.
 ```javascript
 function draw() {
   background(220);
-  updateGui();
+  drawGui();
 }
 ```
 4. `if()` your button is `.pressed`, you can choose to perform actions. In this example, we will `print()` a message using the button's `.label`.
 ```javascript
 function draw() {
   background(220);
-  updateGui();
+  drawGui();
 
   if(b.pressed) {
     print(b.label + " is pressed.");
@@ -71,7 +71,7 @@ function setup() {
 
 function draw() {
   background(220);
-  updateGui();
+  drawGui();
 
   if(b.pressed) {
     print(b.label + " is pressed.");

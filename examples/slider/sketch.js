@@ -15,7 +15,7 @@ function setup() {
 
 function draw() {
   background(220);
-  updateGui();
+  drawGui();
   
   if (s.changed) {
     // Print a message when Slider 1 is changed

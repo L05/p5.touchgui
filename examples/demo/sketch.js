@@ -31,7 +31,7 @@ function setup() {
 
 function draw() {
   background(220);
-  updateGui();
+  drawGui();
   
   // Check if GUI object have been .pressed, .changed, .held, or .released
   // and act accordingly.
