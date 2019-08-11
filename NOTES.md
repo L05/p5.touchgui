@@ -4,8 +4,8 @@
 - Add an input lock mode. Need to track touch IDs in order to do this, which is not simple and straightforward. Object should know which touch initiated contact. This may need to be done at the context level, not yet sure without further investigation.
 - ~~Replace triggered with pressed, held, released, changed (for slider)~~
 - ~~Ability to update style~~
-- Ability to change label
-- Label for toggle
+- ~~Ability to change label~~
+- ~~Label for toggle~~
 
 ## All Sliders
 - Note: includes GuiSlider, GuiSliderV, GuiCrossfader, GuiCrossfaderV, GuiSlider2d, GuiJoystick
