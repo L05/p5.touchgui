@@ -4,31 +4,68 @@ let b1, b2, b3, t1, cf1, cb1, cb2, s1, s2d1;
 // Create a variable for the gui context that we can use to change style
 let gui;
 
-let dict;
-
 // For framerate testing
 let fps = [];
+
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
   gui = createGui();
   
   // simpleLayout(); // <- uncomment for simple layout
-  mobileLayout(); // <- uncomment for mobile layout
-  
-  cb1.mode = "onRelease";
+  mobileLayout(); // <- uncomment for mobile layout  
   
   // Set style to Blue!
-  gui.style.Blue();
+  gui.loadStyle("Blue");
+  
+  // There are two ways to change the style for an individual GUI
+  // object, either by selecting an individual style property by name 
+  // or by providing a key/value list of multiple style properties.
+  b1.setStyle("fillBgActive", color(100, 255, 100));
+  b2.setStyle({
+    fillBg: color(255, 100, 255),
+    fillBgActive: color(255)
+  });
+  
+  // Change the behavior for Checkbox 1 to onRelease
+  cb1.mode = "onRelease";
+  
+  // Set Crossfader 1 to not visible.
+  cf1.visible = false;
+  
+  // Add callback function to Checkbox 2
+  cb2.onPress = function() {
+    print(cb2.label + " = " + cb2.val);
+  }
 }
 
 function draw() {
   background(220);
   drawGui();
   
+  // Check if GUI object have been .pressed, .changed, .held, or .released
+  // and act accordingly.
+  if(b1.pressed) { print(b1.label + " pressed."); }
+  if(b2.released) { print(b2.label + " released."); }
+  if(s1.changed) { print(s1.label + " = " + s1.val); }
+  if(s2.changed) { print(s2.label + " = " + s2.val); }
+  if(cf1.changed) { print(cf1.label + " = " + cf1.val); }
+  
+  if(t1.pressed) {
+    print(t1.label + " = " + t1.val);
+    cf1.visible = t1.val; // Set visibility of Crossfader 1
+  }
+  
+  if(cb1.released) {
+    print(cb1.label + " = " + cb1.val); // prints "on release"
+  }
+  
+  if(s2d1.changed) {
+    print(s2d1.label + " = {" + s2d1.valX + ", " + s2d1.valY + "}");
+  }
+  
   drawFps(2);
 }
-
 
 // Creates a simple layout
 function simpleLayout() {
@@ -77,11 +114,8 @@ function drawFps(duration) {
   pop();
 }
 
-/// Add these lines below sketch to prevent scrolling
-function mousePressed(e) {
+/// Add these lines below sketch to prevent scrolling on mobile
+function touchMoved() {
+  // do some stuff
   return false;
 }
-
-document.addEventListener('gesturestart', function(e) {
-  e.preventDefault();
-});
