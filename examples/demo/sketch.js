@@ -27,6 +27,12 @@ function setup() {
     fillBgActive: color(255)
   });
   
+  // You can set both an on and off label for both Buttons and Toggles. 
+  // By default, they are initiated to the label specified when creating 
+  // the button.
+  t1.labelOn  = "Toggle 1 On";
+  t1.labelOff = "Toggle 1 Off";
+  
   // Change the behavior for Checkbox 1 to onRelease
   cb1.mode = "onRelease";
   
