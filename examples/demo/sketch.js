@@ -104,11 +104,8 @@ function drawFps(duration) {
   pop();
 }
 
-/// Add these lines below sketch to prevent scrolling
-function mousePressed(e) {
+/// Add these lines below sketch to prevent scrolling on mobile
+function touchMoved() {
+  // do some stuff
   return false;
 }
-
-document.addEventListener('gesturestart', function(e) {
-  e.preventDefault();
-});

@@ -27,3 +27,9 @@ function draw() {
   fill(255, 0, 0);
   ellipse(s.val, 300, 100);
 }
+
+/// Add these lines below sketch to prevent scrolling on mobile
+function touchMoved() {
+  // do some stuff
+  return false;
+}
