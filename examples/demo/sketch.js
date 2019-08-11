@@ -7,6 +7,7 @@ let gui;
 // For framerate testing
 let fps = [];
 
+
 function setup() {
   createCanvas(windowWidth, windowHeight);
   gui = createGui();
@@ -15,7 +16,16 @@ function setup() {
   mobileLayout(); // <- uncomment for mobile layout  
   
   // Set style to Blue!
-  gui.style.Blue();
+  gui.loadStyle("Blue");
+  
+  // There are two ways to change the style for an individual GUI
+  // object, either by selecting an individual style property by name 
+  // or by providing a key/value list of multiple style properties.
+  b1.setStyle("fillBgActive", color(100, 255, 100));
+  b2.setStyle({
+    fillBg: color(255, 100, 255),
+    fillBgActive: color(255)
+  });
   
   // Change the behavior for Checkbox 1 to onRelease
   cb1.mode = "onRelease";
