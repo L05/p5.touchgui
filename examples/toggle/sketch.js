@@ -13,7 +13,7 @@ function setup() {
 
 function draw() {
   background(220);
-  updateGui();
+  drawGui();
   
   if (t.pressed) {
     // Print a message when Toggle 1 is pressed

@@ -13,7 +13,7 @@ function setup() {
 
 function draw() {
   background(220);
-  updateGui();
+  drawGui();
   
   if (b.pressed) {
     // Print a message when Button 1 is pressed.

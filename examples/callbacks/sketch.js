@@ -35,5 +35,5 @@ function printHello() {
 
 function draw() {
   background(220);
-  updateGui();
+  drawGui();
 }
