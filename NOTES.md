@@ -3,9 +3,8 @@
 ## GuiObject
 - Add an input lock mode. Need to track touch IDs in order to do this, which is not simple and straightforward. Object should know which touch initiated contact. This may need to be done at the context level, not yet sure without further investigation.
 - ~~Replace triggered with pressed, held, released, changed (for slider)~~
-- Ability to update style
+- ~~Ability to update style~~
 - Ability to change label
-
 - Label for toggle
 
 ## All Sliders
@@ -21,12 +20,13 @@
 - write this object class
 
 ## GuiStyle
-- See if it's possible to simplify number of parameters
+- ~~See if it's possible to simplify number of parameters~~
 - Develop color palettes
     - Grayscale (get better contrast)
     - Classic (based on p5.js)
     - Dark
-- Package as themes.js
+- ~~Save style as JSON file preset.~~
+- Load style as JSON file preset.
 
 # QUESTIONS:
 - Should I make helper style prototype functions for things such as setting visibility? (i.e. *SetVisible(b1, true);*)
