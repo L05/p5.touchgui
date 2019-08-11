@@ -1,7 +1,15 @@
 # TODO:
 
+## GuiContext
+- Add 'page' property so that objects can be grouped and toggled by page
+- Write *loadStyleJSON()*
+- ~~Implement "locked" object input.~~
+- ~~Add methods for copying global style parameter changes to individual objects~~
+
 ## GuiObject
-- Add an input lock mode. Need to track touch IDs in order to do this, which is not simple and straightforward. Object should know which touch initiated contact. This may need to be done at the context level, not yet sure without further investigation.
+- Add an individual input lock toggle. May require further checking at the GuiContext scope.
+- Add 'page' property so that objects can be grouped and toggled by page
+- Review *setStyle()* for any additional error handling that may be needed 
 - ~~Replace triggered with pressed, held, released, changed (for slider)~~
 - ~~Ability to update style~~
 - ~~Ability to change label~~
@@ -9,8 +17,9 @@
 
 ## All Sliders
 - Note: includes GuiSlider, GuiSliderV, GuiCrossfader, GuiCrossfaderV, GuiSlider2d, GuiJoystick
-- fix hard coding of buffers (e.g. this.w-24)
-- fix so that touch corresponds with handle
+- Fix hard coding of buffers (e.g. this.w-24)
+- Fix so that touch corresponds with handle
+- Add integer step mode
 - (stretch) add segmenting/resolution functionality
 
 ## GuiSlider2d (and GuiJoystick)
@@ -22,8 +31,8 @@
 ## GuiStyle
 - ~~See if it's possible to simplify number of parameters~~
 - Develop color palettes
-    - Grayscale (get better contrast)
-    - Classic (based on p5.js)
+    - ~~Gray~~ (get better contrast)
+    - ~~Blue~~
     - Dark
 - ~~Save style as JSON file preset.~~
 - Load style as JSON file preset.
@@ -36,7 +45,7 @@
 - Should sliders have dead zones at the end?
     - Let users process output
 - Should buttons have on and off labels?
-- **What's the b  alance between simplicity and feature availability/flexibility?**
+- **What's the balance between simplicity and feature availability/flexibility?**
 
 # FUTURE OBJECT IDEAS
 - Pages/Tabs
