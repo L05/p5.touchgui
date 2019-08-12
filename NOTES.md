@@ -61,7 +61,15 @@
 * Labels on sliders
 * Pad bank
 
-# EXAMPLES
+# DOCUMENTATION
+
+## REFERENCE
+* Prototype methods
+* Context methods
+* All objects and associated methods
+* Style parameters for each object
+
+## EXAMPLES
 * ~~One for each object~~
 * Interaction modes
 * ~~Callback example~~
