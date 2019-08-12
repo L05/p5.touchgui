@@ -1,12 +1,14 @@
 # TODO:
 
-## GuiContext
+## CODE
+
+### GuiContext
 * Add 'page' or 'group' property so that objects can be grouped and toggled
 * Write *loadStyleJSON()*
 * ~~Implement "locked" object input.~~
 * ~~Add methods for copying global style parameter changes to individual objects~~
 
-## GuiObject
+### GuiObject
 * Add an individual input lock toggle. May require further checking at the GuiContext scope.
 * Add 'page' or 'group' property so that objects can be grouped and toggled
 * Review *setStyle()* for any additional error handling that may be needed 
@@ -15,24 +17,24 @@
 * ~~Ability to change label~~
 * ~~Label for toggle~~
 
-## GuiButton
+### GuiButton
 * Set text size
 
-## All Sliders
+### All Sliders
 * Note: includes GuiSlider, GuiSliderV, GuiCrossfader, GuiCrossfaderV, GuiSlider2d, GuiJoystick
 * Fix hard coding of buffers (e.g. this.w-24)
 * Fix so that touch corresponds with handle
 * (stretch) Add integer step mode
 * (stretch) add segmenting/resolution functionality
 
-## GuiSlider2d (and GuiJoystick)
+### GuiSlider2d (and GuiJoystick)
 * ~~Come up with better variable names for valX and valY~~
     * ~~Can now also access with .val.x and .val.y~~
 
-## GuiRadio
+### GuiRadio
 * Write this object class
 
-## GuiStyle
+### GuiStyle
 * ~~See if it's possible to simplify number of parameters~~
 * Develop color palettes
     * ~~Gray~~ (get better contrast)
@@ -40,6 +42,28 @@
     * Dark
 * ~~Save style as JSON file preset.~~
 * Load style as JSON file preset. Note: Needs further processing for p5.Color objects.
+
+## DOCUMENTATION
+
+### REFERENCE
+* Prototype methods
+* Context methods
+* All objects and associated methods
+* Style parameters for each object
+
+### EXAMPLES
+* ~~One for each object~~
+* Interaction modes
+* ~~Callback example~~
+* Sample layouts
+* Set starting value for sliders
+* Set styles for each type of object
+    * Colors
+    * Stroke Width
+    * Stroke
+    * Fill
+    * Rounding
+* Get examples from other people!
 
 # QUESTIONS:
 * ~~Should I make helper style prototype functions for things such as setting visibility? (i.e. *SetVisible(b1, true);*)~~
@@ -61,24 +85,4 @@
 * Labels on sliders
 * Pad bank
 
-# DOCUMENTATION
 
-## REFERENCE
-* Prototype methods
-* Context methods
-* All objects and associated methods
-* Style parameters for each object
-
-## EXAMPLES
-* ~~One for each object~~
-* Interaction modes
-* ~~Callback example~~
-* Sample layouts
-* Set starting value for sliders
-* Set styles for each type of object
-    * Colors
-    * Stroke Width
-    * Stroke
-    * Fill
-    * Rounding
-* Get examples from other people!
