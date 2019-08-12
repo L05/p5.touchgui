@@ -1,28 +1,28 @@
 let gui;
 
-// Create a variable for your toggle
-let t;
+// Create a variable for your Checkbox
+let cb1;
 
 function setup() {
   createCanvas(400, 400);
   gui = createGui();
   
-  // Create Toggle 1
-  t = createToggle("Toggle 1", 100, 50, 200, 50);
+  // Create Checkbox
+  cb1 = createCheckbox("Checkbox", 150, 50, 100, 100);
 }
 
 function draw() {
   background(220);
   drawGui();
   
-  if (t.pressed) {
-    // Print a message when Toggle 1 is pressed
+  if (cb1.pressed) {
+    // Print a message when Checkbox is pressed
     // that displays its value.
-    print(t.label + " is " + t.val);
+    print(cb1.label + " is " + cb1.val);
   }
   
-  if (t.val) {
-    // Draw an ellipse when Toggle 1 is true.
+  if (cb1.val) {
+    // Draw an ellipse when Checkbox is true.
     fill(255, 0, 0);
     ellipse(200, 300, 100);
   }
