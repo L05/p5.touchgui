@@ -57,7 +57,7 @@
 * Pad bank
 
 # EXAMPLES
-* One for each object
+* ~~One for each object~~
 * Interaction modes
 * ~~Callback example~~
 * Sample layouts
