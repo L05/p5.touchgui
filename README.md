@@ -82,10 +82,16 @@ Congratulations! You've created your first sketch using *p5.touchgui*. If you wa
 
 ## Examples
 
-* [Button](https://editor.p5js.org/L05/sketches/6ETiBjotm)
-* [Toggle](https://editor.p5js.org/L05/sketches/WUVbr_uqV)
-* [Checkbox](https://editor.p5js.org/L05/sketches/Kn1ecx6wv)
-* [Slider](https://editor.p5js.org/L05/sketches/urlZ9XCsZ)
+* Simple
+    * [Button](https://editor.p5js.org/L05/sketches/6ETiBjotm)
+    * [Toggle](https://editor.p5js.org/L05/sketches/WUVbr_uqV)
+    * [Checkbox](https://editor.p5js.org/L05/sketches/Kn1ecx6wv)
+    * [Slider](https://editor.p5js.org/L05/sketches/urlZ9XCsZ)
+    * [SliderV](https://editor.p5js.org/L05/sketches/-J54rzetm)
+    * [Crossfader](https://editor.p5js.org/L05/sketches/MAUFHrJpg)
+    * [CrossfaderV](https://editor.p5js.org/L05/sketches/uJ4pfZISu)
+    * [Slider2d](https://editor.p5js.org/L05/sketches/xkA_bxh4_)
+    * [Joystick](https://editor.p5js.org/L05/sketches/l-66JjVKt)
 * [Callbacks](https://editor.p5js.org/L05/sketches/UZ7xM-RoS)
 * [Demo](https://editor.p5js.org/L05/sketches/LWfA8lGwe)
 
@@ -120,5 +126,3 @@ A two dimensional slider that returns an X/Y pair of values relative to a resett
 
 ____
 
-[![Space Dander Example Video](https://i.vimeocdn.com/video/706438411.webp?mw=1100&mh=619&q=70)](https://vimeo.com/274410221)
-*Space Dander Example Video*
