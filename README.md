@@ -126,3 +126,4 @@ A two dimensional slider that returns an X/Y pair of values relative to a resett
 
 ____
 
+[Development Notes](NOTES.md)
