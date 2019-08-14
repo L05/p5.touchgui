@@ -21,7 +21,7 @@ let gui;
 function setup() {
   createCanvas(400, 400);
   
-  gui = createGUI();
+  gui = createGui();
 }
 ```
 
@@ -33,7 +33,7 @@ let b;
 function setup() {
   createCanvas(400, 400);
   
-  gui = createGUI();
+  gui = createGui();
   b = createButton("myButton", 50, 50);
 }
 ```
