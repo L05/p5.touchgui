@@ -17,6 +17,9 @@ function setup() {
   
   // Set style to Blue!
   gui.loadStyle("Blue");
+  // gui.saveStyleJSON("myPreset.json");
+  // gui.loadStyleJSON("myPreset.json");
+  
   
   // There are two ways to change the style for an individual GUI
   // object, either by selecting an individual style property by name 
@@ -26,6 +29,12 @@ function setup() {
     fillBg: color(255, 100, 255),
     fillBgActive: color(255)
   });
+  
+  // You can set both an on and off label for both Buttons and Toggles. 
+  // By default, they are initiated to the label specified when creating 
+  // the button.
+  t1.labelOn  = "Toggle 1 On";
+  t1.labelOff = "Toggle 1 Off";
   
   // Change the behavior for Checkbox 1 to onRelease
   cb1.mode = "onRelease";
