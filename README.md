@@ -1,10 +1,9 @@
 
-p5.touchgui
-===========
+# p5.touchgui
 
 *Note: This is a work in progress that is in early stages of development.*
 
-# Why p5.touchgui?
+## Why p5.touchgui?
 
 [*p5.js*](https://p5js.org) is a wonderfully accessible way for students and creative minds to both learn computer programming and create interactive art and experiences. 
 
