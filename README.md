@@ -1,16 +1,17 @@
 
-# p5.touchgui
+p5.touchgui
+===========
 
 *Note: This is a work in progress that is in early stages of development.*
 
-## Why p5.touchgui?
+# Why p5.touchgui?
 
 [*p5.js*](https://p5js.org) is a wonderfully accessible way for students and creative minds to both learn computer programming and create interactive art and experiences. 
 
 *p5.touchgui* is intended to extend *p5.js* and make it easy to add buttons, sliders, and other GUI (graphical user interface) objects to your *p5.js* sketches, enabling you to focus on quickly iterating ideas with easily created GUI objects that work with both mouse and multi-touch input. 
 
 
-## Getting Started
+# Getting Started
 
 *(Follow along [here](https://editor.p5js.org/L05/sketches/YjR7CxKg-).)*
 
@@ -80,21 +81,6 @@ function draw() {
 ```
 Congratulations! You've created your first sketch using *p5.touchgui*. If you want to see what this looks like, [click here](https://editor.p5js.org/L05/sketches/YjR7CxKg-).
 
-## Examples
-
-* Simple
-    * [Button](https://editor.p5js.org/L05/sketches/6ETiBjotm)
-    * [Toggle](https://editor.p5js.org/L05/sketches/WUVbr_uqV)
-    * [Checkbox](https://editor.p5js.org/L05/sketches/Kn1ecx6wv)
-    * [Slider](https://editor.p5js.org/L05/sketches/urlZ9XCsZ)
-    * [SliderV](https://editor.p5js.org/L05/sketches/-J54rzetm)
-    * [Crossfader](https://editor.p5js.org/L05/sketches/MAUFHrJpg)
-    * [CrossfaderV](https://editor.p5js.org/L05/sketches/uJ4pfZISu)
-    * [Slider2d](https://editor.p5js.org/L05/sketches/xkA_bxh4_)
-    * [Joystick](https://editor.p5js.org/L05/sketches/l-66JjVKt)
-* [Callbacks](https://editor.p5js.org/L05/sketches/UZ7xM-RoS)
-* [Demo](https://editor.p5js.org/L05/sketches/LWfA8lGwe)
-
 ## GUI Object Types
 
 ### Button
@@ -124,6 +110,21 @@ A two dimensional slider that returns an X/Y pair of values depending on touch o
 ### Joystick
 A two dimensional slider that returns an X/Y pair of values relative to a resetting zero point at its center.
 
+# Examples
+
+* Simple
+    * [Button](https://editor.p5js.org/L05/sketches/6ETiBjotm)
+    * [Toggle](https://editor.p5js.org/L05/sketches/WUVbr_uqV)
+    * [Checkbox](https://editor.p5js.org/L05/sketches/Kn1ecx6wv)
+    * [Slider](https://editor.p5js.org/L05/sketches/urlZ9XCsZ)
+    * [SliderV](https://editor.p5js.org/L05/sketches/-J54rzetm)
+    * [Crossfader](https://editor.p5js.org/L05/sketches/MAUFHrJpg)
+    * [CrossfaderV](https://editor.p5js.org/L05/sketches/uJ4pfZISu)
+    * [Slider2d](https://editor.p5js.org/L05/sketches/xkA_bxh4_)
+    * [Joystick](https://editor.p5js.org/L05/sketches/l-66JjVKt)
+* [Callbacks](https://editor.p5js.org/L05/sketches/UZ7xM-RoS)
+* [Demo](https://editor.p5js.org/L05/sketches/LWfA8lGwe)
+
 ## Using the OSC Examples
 
 In order to run the OSC examples you'll need to do the following:
@@ -152,6 +153,6 @@ In order to run the OSC examples you'll need to do the following:
 
 10. Then point your browser to `http://localhost:8080/index.html` and use the menu to select the OSC examples.
 
-## Development Notes
+# Development Notes
 
 The [development notes](NOTES.md) share some of the To Dos, questions, and future ideas for the project.
