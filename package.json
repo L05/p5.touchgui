@@ -31,5 +31,9 @@
     "jsdom": "15.1.1",
     "jsdom-global": "3.0.2",
     "mocha": "6.1.4"
+  },
+  "dependencies": {
+    "node-osc": "4.1.0",
+    "socket.io": "2.2.0"
   }
 }

@@ -18,8 +18,9 @@ function setup() {
   // Set style to Blue!
   gui.loadStyle("Blue");
   // gui.saveStyleJSON("myPreset.json");
-  // gui.loadStyleJSON("myPreset.json");
+  // gui.loadStyleJSON("myPreset.json"); // not working
   
+  print(gui.style);
   
   // There are two ways to change the style for an individual GUI
   // object, either by selecting an individual style property by name 
