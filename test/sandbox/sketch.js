@@ -16,20 +16,9 @@ function setup() {
   mobileLayout(); // <- uncomment for mobile layout  
   
   // Set style to Blue!
-  gui.loadStyle("Blue");
+  gui.loadStyle("TerminalGreen");
   // gui.saveStyleJSON("myPreset.json");
   // gui.loadStyleJSON("myPreset.json"); // not working
-  
-  print(gui.style);
-  
-  // There are two ways to change the style for an individual GUI
-  // object, either by selecting an individual style property by name 
-  // or by providing a key/value list of multiple style properties.
-  b1.setStyle("fillBgActive", color(100, 255, 100));
-  b2.setStyle({
-    fillBg: color(255, 100, 255),
-    fillBgActive: color(255)
-  });
   
   // You can set both an on and off label for both Buttons and Toggles. 
   // By default, they are initiated to the label specified when creating 
@@ -50,7 +39,7 @@ function setup() {
 }
 
 function draw() {
-  background(220);
+  background(0);
   drawGui();
   
   // Check if GUI object have been .pressed, .changed, .held, or .released
