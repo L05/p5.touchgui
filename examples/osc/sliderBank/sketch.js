@@ -16,7 +16,7 @@ function setup() {
   createCanvas(windowWidth-5, windowHeight-5); 
   setupOsc(10000, 12000, bridgeIp, ipIn, ipOut);
   gui = createGui();
-  gui.loadStyle('Blue');
+  gui.loadStyle('TerminalGreen');
   
   // Calculate slider sizes
   let sW = (width - width*marginX*2)/cols;
@@ -30,7 +30,7 @@ function setup() {
 }
 
 function draw() {
-  background(0, 0, 100);
+  background(0);
   drawGui();
   
   // Cycle through sliders and send OSC messages

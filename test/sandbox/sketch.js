@@ -17,8 +17,6 @@ function setup() {
   
   // Set style to Blue!
   gui.loadStyle("TerminalGreen");
-  // gui.saveStyleJSON("myPreset.json");
-  // gui.loadStyleJSON("myPreset.json"); // not working
   
   // You can set both an on and off label for both Buttons and Toggles. 
   // By default, they are initiated to the label specified when creating 

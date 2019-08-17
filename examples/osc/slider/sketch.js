@@ -12,19 +12,19 @@ function setup() {
   setupOsc(10000, 12000, ip);
   
   gui = createGui();
-  gui.loadStyle("Blue");
+  gui.loadStyle("TerminalGreen");
   
   s = createSlider("Slider", 50, 50, 400, 64, 0, 100);
 }
 
 function draw() {
-  background(0, 0, 100);
+  background(0);
   drawGui();
   
   sendOsc('/sliderVal', s.val);
   
   // Show value on screen
-  fill(255);
+  fill(0, 255, 0);
   textAlign(CENTER, CENTER);
   textSize(40);
   text("/sliderVal = " + s.val.toFixed(2), 250, 400);
