@@ -77,6 +77,11 @@
 * ~~Should buttons have on and off labels?~~
     * ~~They do now!~~
 * *What's the balance between simplicity and feature availability/flexibility?*
+* **How can p5.touchgui be made accessible to screen readers?**
+    * ARIA
+    * Adapted for DOM element use? Would require a massive overhaul (and change functionality/feature set).
+    * Inclusion of shadow DOM elements specifically intended for screen readers?
+    * There are underlying accessibility issues with p5.js being JS canvas-based that may need to be addressed in parallel.    
 
 # FUTURE IDEAS
 * Pages/Groups/Tabs

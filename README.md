@@ -10,7 +10,7 @@
 *p5.touchgui* is intended to extend *p5.js* and make it easy to add buttons, sliders, and other GUI (graphical user interface) objects to your *p5.js* sketches, enabling you to focus on quickly iterating ideas with easily created GUI objects that work with both mouse and multi-touch input. 
 
 
-## Getting Started
+# Getting Started
 
 *(Follow along [here](https://editor.p5js.org/L05/sketches/YjR7CxKg-).)*
 
@@ -80,21 +80,6 @@ function draw() {
 ```
 Congratulations! You've created your first sketch using *p5.touchgui*. If you want to see what this looks like, [click here](https://editor.p5js.org/L05/sketches/YjR7CxKg-).
 
-## Examples
-
-* Simple
-    * [Button](https://editor.p5js.org/L05/sketches/6ETiBjotm)
-    * [Toggle](https://editor.p5js.org/L05/sketches/WUVbr_uqV)
-    * [Checkbox](https://editor.p5js.org/L05/sketches/Kn1ecx6wv)
-    * [Slider](https://editor.p5js.org/L05/sketches/urlZ9XCsZ)
-    * [SliderV](https://editor.p5js.org/L05/sketches/-J54rzetm)
-    * [Crossfader](https://editor.p5js.org/L05/sketches/MAUFHrJpg)
-    * [CrossfaderV](https://editor.p5js.org/L05/sketches/uJ4pfZISu)
-    * [Slider2d](https://editor.p5js.org/L05/sketches/xkA_bxh4_)
-    * [Joystick](https://editor.p5js.org/L05/sketches/l-66JjVKt)
-* [Callbacks](https://editor.p5js.org/L05/sketches/UZ7xM-RoS)
-* [Demo](https://editor.p5js.org/L05/sketches/LWfA8lGwe)
-
 ## GUI Object Types
 
 ### Button
@@ -124,6 +109,53 @@ A two dimensional slider that returns an X/Y pair of values depending on touch o
 ### Joystick
 A two dimensional slider that returns an X/Y pair of values relative to a resetting zero point at its center.
 
-____
+# Examples
 
-[Development Notes](NOTES.md)
+* Simple
+    * [Button](https://editor.p5js.org/L05/sketches/6ETiBjotm)
+    * [Toggle](https://editor.p5js.org/L05/sketches/WUVbr_uqV)
+    * [Checkbox](https://editor.p5js.org/L05/sketches/Kn1ecx6wv)
+    * [Slider](https://editor.p5js.org/L05/sketches/urlZ9XCsZ)
+    * [SliderV](https://editor.p5js.org/L05/sketches/-J54rzetm)
+    * [Crossfader](https://editor.p5js.org/L05/sketches/MAUFHrJpg)
+    * [CrossfaderV](https://editor.p5js.org/L05/sketches/uJ4pfZISu)
+    * [Slider2d](https://editor.p5js.org/L05/sketches/xkA_bxh4_)
+    * [Joystick](https://editor.p5js.org/L05/sketches/l-66JjVKt)
+* OSC (see below)
+    * Slider
+    * SliderBank
+    * ButtonBank
+* [Callbacks](https://editor.p5js.org/L05/sketches/UZ7xM-RoS)
+* [Demo](https://editor.p5js.org/L05/sketches/LWfA8lGwe)
+
+## Using the OSC Examples
+
+In order to run the OSC examples you'll need to do the following:
+
+1. [Download and install node.js](https://nodejs.org/en/download/)
+
+2. Open a terminal or command prompt (on Windows you might need to open the command prompt as admin).
+
+3. In the terminal, navigate to your *p5.touchgui* directory using `cd`.
+
+4. In the terminal type to install dependencies needed by *p5.touchgui* to run the OSC examples:
+`npm install`
+
+5. Type the following in the terminal to install node.js `http-server`:
+`npm install -g http-server`
+
+6. Then start a local server by typing in the terminal:
+`http-server -c-1`
+
+7. Open a new terminal or command prompt (again, on Windows you might need to open the command prompt as admin).
+
+8. Use `cd` to navigate to the `examples/osc` folder within your *p5.touchgui* directory.
+
+9. Once there, type in the terminal:
+`node bridge.js`
+
+10. Then point your browser to `http://localhost:8080/index.html` and use the menu to select the OSC examples.
+
+# Development Notes
+
+The [development notes](NOTES.md) share some of the To Dos, questions, and future ideas for the project.
