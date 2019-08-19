@@ -122,3 +122,9 @@ function ifMouseInCanvas(pmouseX, pmouseY, mouseX, mouseY) {
     return true;
   } else return false;
 }
+
+/// Add these lines below sketch to prevent scrolling on mobile
+function touchMoved() {
+  // do some stuff
+  return false;
+}

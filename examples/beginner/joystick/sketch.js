@@ -16,15 +16,6 @@ function setup() {
   // The default min and max values for all four are -1 and 1.
   j = createJoystick("Joystick", 10, 210, 175, 175, -1, 1, 1, -1);
   
-  // Set some style properties with colors from palette:
-  //  https://coolors.co/6466e8-7aa0ff-242038-cac4ce-f7ece1
-  j.setStyle({
-    strokeBg:       color("#F7ECE1"), 
-    strokeBgHover:  color("#F7ECE1"), 
-    strokeBgActive: color("#F7ECE1"), 
-    fillBg:         color("#CAC4CE")
-  });
-  
   // Starting position and velocity
   x     = 300;
   y     = 100;

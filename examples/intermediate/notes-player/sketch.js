@@ -22,13 +22,14 @@ function setup() {
 }
 
 function createControls() {
-  myVolumeSlider = createSlider('VolumeSilier', 540, 10, 160, 30);
-  myFreqSlider = createCrossfader('FreqSilier', 540, 50, 160, 30);
+  myVolumeSlider = createSlider('VolumeSlider', 540, 10, 160, 30);
+  myFreqSlider = createCrossfader('FreqSlider', 540, 50, 160, 30);
 }
 
 function draw() {
   background(20);
   drawGui();
+  
   if (myVolumeSlider.changed) {
     // Print a message when myVolumeSlider is changed
     print(myVolumeSlider.label + " = " + myVolumeSlider.val);
@@ -59,4 +60,10 @@ function draw() {
     let h = map(spectrum[i], 0, 255, 0, height);
     rect(x, height, spectrum.length / 20, -h);
   }
+}
+
+/// Add these lines below sketch to prevent scrolling on mobile
+function touchMoved() {
+  // do some stuff
+  return false;
 }
