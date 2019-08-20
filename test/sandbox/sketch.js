@@ -15,7 +15,7 @@ function setup() {
   // simpleLayout(); // <- uncomment for simple layout
   mobileLayout(); // <- uncomment for mobile layout  
   
-  // Set style to Blue!
+  // Set style to TerminalGreen!
   gui.loadStyle("TerminalGreen");
   
   // You can set both an on and off label for both Buttons and Toggles. 

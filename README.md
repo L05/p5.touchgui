@@ -121,11 +121,15 @@ A two dimensional slider that returns an X/Y pair of values relative to a resett
     * [CrossfaderV](https://editor.p5js.org/L05/sketches/uJ4pfZISu)
     * [Slider2d](https://editor.p5js.org/L05/sketches/xkA_bxh4_)
     * [Joystick](https://editor.p5js.org/L05/sketches/l-66JjVKt)
+* Intermediate
+    * [Callbacks](https://editor.p5js.org/L05/sketches/UZ7xM-RoS)
+    * Styling
+    * Drawing App
+    * Notes Player
 * OSC (see below)
     * Slider
     * SliderBank
     * ButtonBank
-* [Callbacks](https://editor.p5js.org/L05/sketches/UZ7xM-RoS)
 * [Demo](https://editor.p5js.org/L05/sketches/LWfA8lGwe)
 
 ## Using the OSC Examples

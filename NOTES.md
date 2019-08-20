@@ -4,14 +4,14 @@
 
 ### GuiContext
 * Add 'page' or 'group' property so that objects can be grouped and toggled
-* Write *loadStyleJSON()*
+* ~~Write *loadStyleJSON()*~~ Note: see below
 * ~~Implement "locked" object input.~~
 * ~~Add methods for copying global style parameter changes to individual objects~~
 
 ### GuiObject
 * Add an individual input lock toggle. May require further checking at the GuiContext scope.
 * Add 'page' or 'group' property so that objects can be grouped and toggled
-* Review *setStyle()* for any additional error handling that may be needed 
+* ~~Review *setStyle()* for any additional error handling that may be needed~~
 * ~~Replace triggered with pressed, held, released, changed (for slider)~~
 * ~~Ability to update style~~
 * ~~Ability to change label~~
@@ -24,8 +24,8 @@
 * Note: includes GuiSlider, GuiSliderV, GuiCrossfader, GuiCrossfaderV, GuiSlider2d, GuiJoystick
 * Fix hard coding of buffers (e.g. this.w-24)
 * Fix so that touch corresponds with handle
-* (stretch) Add integer step mode
-* (stretch) add segmenting/resolution functionality
+* ~~(stretch) Add integer step mode~~ Note: omitted Joystick
+* ~~(stretch) add segmenting/resolution functionality~~ Note: better to do on user side for now
 
 ### GuiSlider2d (and GuiJoystick)
 * ~~Come up with better variable names for valX and valY~~
@@ -37,11 +37,16 @@
 ### GuiStyle
 * ~~See if it's possible to simplify number of parameters~~
 * Develop color palettes
-    * ~~Gray~~ (get better contrast)
+    * ~~Gray~~ ~~(get better contrast)~~
     * ~~Blue~~
-    * Dark
-* ~~Save style as JSON file preset.~~
-* Load style as JSON file preset. Note: Needs further processing for p5.Color objects.
+    * ~~Rose~~
+    * ~~Seafoam~~
+    * ~~TerminalGreen~~
+    * ~~TerminalRed~~
+    * ~~TerminalBlue~~
+    * ~~TerminalYellow~~
+* Need to rethink JSON use since it effectively would need to save layout as well.
+* Study material-ui implementation of colors and try to implement something similar (i.e. primary and accent color)
 
 ## DOCUMENTATION
 
@@ -55,14 +60,15 @@
 * ~~One for each object~~
 * Interaction modes
 * ~~Callback example~~
+* ~~OSC~~
 * Sample layouts
 * Set starting value for sliders
-* Set styles for each type of object
-    * Colors
-    * Stroke Width
-    * Stroke
-    * Fill
-    * Rounding
+* ~~Set styles for each type of object~~
+    * ~~Colors~~
+    * ~~Stroke Width~~
+    * ~~Stroke~~
+    * ~~Fill~~
+    * ~~Rounding~~
 * Get examples from other people!
 
 # QUESTIONS:
