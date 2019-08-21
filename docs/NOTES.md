@@ -1,4 +1,6 @@
-# TODO:
+[Home](../README.md)
+
+# Development Notes
 
 ## CODE
 
@@ -71,7 +73,7 @@
     * ~~Rounding~~
 * Get examples from other people!
 
-# QUESTIONS:
+## QUESTIONS:
 * ~~Should I make helper style prototype functions for things such as setting visibility? (i.e. *SetVisible(b1, true);*)~~
     * ~~Better for now to leave it under control of objects as member variables and methods~~
 * Should there be some kind of layout tool?
@@ -89,7 +91,7 @@
     * Inclusion of shadow DOM elements specifically intended for screen readers?
     * There are underlying accessibility issues with p5.js being JS canvas-based that may need to be addressed in parallel.    
 
-# FUTURE IDEAS
+## FUTURE IDEAS
 * Pages/Groups/Tabs
 * GuiColorpicker
 * GuiTextfield

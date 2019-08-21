@@ -14,8 +14,8 @@
     * [My First Button](#my-first-button)
 * [Object Types](#object-types)
 * [Examples](#examples)
-* [Reference](#reference)
-* [Development Notes](#development-notes)
+* [Reference](docs/REFERENCE.md)
+* [Development Notes](docs/NOTES.md)
 
 # Getting Started
 
@@ -229,10 +229,3 @@ In order to run the OSC examples you'll need to do the following:
 
 10. Then point your browser to `http://localhost:8080/index.html` and use the menu to select the OSC examples.
 
-# Reference
-
-Please view the reference documentation [here](docs/API.md).
-
-# Development Notes
-
-The [development notes](docs/NOTES.md) share some of the To Dos, questions, and future ideas for the project.
