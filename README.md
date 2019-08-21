@@ -142,32 +142,41 @@ Congratulations! You've created your first sketch using *p5.touchgui*. If you wa
 
 # Object Types
 
-## Button
-A button with a label that highlights when touched or clicked. When released it turns off.  
+* **Button**
+A button with a label that highlights when touched or clicked. When released it turns off.
+<br>
 
-## Toggle
+* **Toggle**
 A button with a label that highlights when touched or clicked. When touched or clicked again, it turns off.
+<br>
 
-## Checkbox
-A button with an **X** that turns on when touched or clicked. When touched or clicked again, it turns off.  
+* **Checkbox**
+A button with an **X** that turns on when touched or clicked. When touched or clicked again, it turns off.
+<br>
 
-## Slider
-A horizontally oriented slider that can be touched or clicked and dragged side to side to change its value. 
+* **Slider**
+A horizontally oriented slider that can be touched or clicked and dragged side to side to change its value.
+<br>
 
-## SliderV
+* **SliderV**
 A vertically oriented slider that can be touched or clicked and dragged up and down to change its value.
+<br>
 
-## Crossfader
+* **Crossfader**
 A horizontally oriented crossfader that can be touched or clicked and dragged side to side to change its value. Visually similar to a slider except the indicator extends from the center.
+<br>
 
-## CrossfaderV
+* **CrossfaderV**
 A vertically oriented crossfader that can be touched or clicked and dragged up and down to change its value. Visually similar to a slider except the indicator extends from the center.
+<br>
 
-## Slider2d
+* **Slider2d**
 A two dimensional slider that returns an X/Y pair of values depending on touch or click location.
+<br>
 
-## Joystick
+* **Joystick**
 A two dimensional slider that returns an X/Y pair of values relative to a resetting zero point at its center.
+<br>
 
 # Examples
 
