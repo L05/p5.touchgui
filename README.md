@@ -9,8 +9,68 @@
 
 *p5.touchgui* is intended to extend *p5.js* and make it easy to add buttons, sliders, and other GUI (graphical user interface) objects to your *p5.js* sketches, enabling you to focus on quickly iterating ideas with easily created GUI objects that work with both mouse and multi-touch input. 
 
+* [Getting Started](#getting-started)
+    * [Quick Start](#quick-start)
+    * [My First Button](#my-first-button)
+* [Object Types](#object-types)
+* [Examples](#examples)
+* [Reference](#reference)
+* [Development Notes](#development-notes)
 
 # Getting Started
+
+## Quick Start
+
+There are two ways to quickly get started with p5.touchgui.
+
+### Option 1 - p5.js editor
+
+Open this [p5.js web editor sketch with p5.touchgui.js added](https://editor.p5js.org/L05/sketches/YjR7CxKg-).
+
+### Option 2 - index.html
+
+In an **index.html** file, copy and paste the following and open up that file in your web browser.
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Getting Started with ml5.js</title>
+    <!-- p5 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <!-- p5.touchgui -->
+    <script src="https://unpkg.com/p5.touchgui@0.3.0/lib/p5.touchgui.js"></script>
+  </head>
+
+  <body>
+    <script>
+      // Your code will go here
+      let gui;
+      let b;
+
+      function setup(){
+        createCanvas(400, 400);
+                       
+        gui = createGui();
+        b = createButton("Button", 50, 50);
+      }
+
+      function draw(){
+        background(200);
+        drawGui();
+
+        if(b.pressed) {
+          print(b.label + " is pressed.");
+        }
+      }
+    </script>
+  </body>
+</html>
+```
+That's all!
+
+## My First Button
 
 *(Follow along [here](https://editor.p5js.org/L05/sketches/YjR7CxKg-).)*
 
@@ -80,38 +140,38 @@ function draw() {
 ```
 Congratulations! You've created your first sketch using *p5.touchgui*. If you want to see what this looks like, [click here](https://editor.p5js.org/L05/sketches/YjR7CxKg-).
 
-## GUI Object Types
+# Object Types
 
-### Button
+## Button
 A button with a label that highlights when touched or clicked. When released it turns off.  
 
-### Toggle
+## Toggle
 A button with a label that highlights when touched or clicked. When touched or clicked again, it turns off.
 
-### Checkbox
+## Checkbox
 A button with an **X** that turns on when touched or clicked. When touched or clicked again, it turns off.  
 
-### Slider
+## Slider
 A horizontally oriented slider that can be touched or clicked and dragged side to side to change its value. 
 
-### SliderV
+## SliderV
 A vertically oriented slider that can be touched or clicked and dragged up and down to change its value.
 
-### Crossfader
+## Crossfader
 A horizontally oriented crossfader that can be touched or clicked and dragged side to side to change its value. Visually similar to a slider except the indicator extends from the center.
 
-### CrossfaderV
+## CrossfaderV
 A vertically oriented crossfader that can be touched or clicked and dragged up and down to change its value. Visually similar to a slider except the indicator extends from the center.
 
-### Slider2d
+## Slider2d
 A two dimensional slider that returns an X/Y pair of values depending on touch or click location.
 
-### Joystick
+## Joystick
 A two dimensional slider that returns an X/Y pair of values relative to a resetting zero point at its center.
 
 # Examples
 
-* Simple
+* **Simple**
     * [Button](https://editor.p5js.org/L05/sketches/6ETiBjotm)
     * [Toggle](https://editor.p5js.org/L05/sketches/WUVbr_uqV)
     * [Checkbox](https://editor.p5js.org/L05/sketches/Kn1ecx6wv)
@@ -121,16 +181,16 @@ A two dimensional slider that returns an X/Y pair of values relative to a resett
     * [CrossfaderV](https://editor.p5js.org/L05/sketches/uJ4pfZISu)
     * [Slider2d](https://editor.p5js.org/L05/sketches/xkA_bxh4_)
     * [Joystick](https://editor.p5js.org/L05/sketches/l-66JjVKt)
-* Intermediate
+* **Intermediate**
     * [Callbacks](https://editor.p5js.org/L05/sketches/UZ7xM-RoS)
-    * Styling
+    * [Styling](https://editor.p5js.org/L05/sketches/u6aqtbD3d)
     * Drawing App
     * Notes Player
-* OSC (see below)
+* **OSC (see below)**
     * Slider
     * SliderBank
     * ButtonBank
-* [Demo](https://editor.p5js.org/L05/sketches/LWfA8lGwe)
+* **[Demo](https://editor.p5js.org/L05/sketches/LWfA8lGwe)**
 
 ## Using the OSC Examples
 
@@ -160,6 +220,10 @@ In order to run the OSC examples you'll need to do the following:
 
 10. Then point your browser to `http://localhost:8080/index.html` and use the menu to select the OSC examples.
 
+# Reference
+
+Please view the reference documentation [here](docs/API.md).
+
 # Development Notes
 
-The [development notes](NOTES.md) share some of the To Dos, questions, and future ideas for the project.
+The [development notes](docs/NOTES.md) share some of the To Dos, questions, and future ideas for the project.
