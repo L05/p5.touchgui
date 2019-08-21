@@ -1,7 +1,7 @@
 {
   "name": "p5.touchgui",
-  "version": "0.4.0",
-  "description": "An easy-to-use touchscreen UI library for p5.js.",
+  "version": "0.5.0",
+  "description": "An easy-to-use touchscreen and mouse UI library for p5.js.",
   "main": "lib/p5.touchgui.js",
   "directories": {
     "example": "examples",
