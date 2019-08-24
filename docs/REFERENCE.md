@@ -2,7 +2,7 @@
 
 # REFERENCE
 
-[Global](Global.md) | [Gui](Gui.md) | [GuiObject](GuiObject.md) | [GuiButton](GuiButton.md) | [GuiToggle](GuiToggle.md) | [GuiSlider](GuiSlider.md) | [GuiCrossfader](GuiCrossfader.md) | [GuiSlider2d](GuiSlider2d.md) | [GuiJoystick](GuiJoystick.md)
+[Global](#global) | [Gui](#gui) | [GuiObject](#guiobject) | [GuiButton](#guibutton) | [GuiToggle](#guitoggle) | [GuiSlider](#guislider-guisliderv) | [GuiCrossfader](#guicrossfader) | [GuiSlider2d](#guislider2d) | [GuiJoystick](#guijoystick)
 
 -----
 
@@ -32,8 +32,9 @@
 
 -----
 
-## [Gui](Gui.md)
-[[Back to top]](#reference)
+## Gui
+[[Go to page]](Gui.md) | [[Back to top]](#reference)
+
 #### [Variables](Gui.md#variables)
 * [objects[]](Gui.md#objects)
 * [style](Gui.md#style)
@@ -50,8 +51,11 @@
 
 #### [Style](Gui.md##Style)
 
-## [GuiObject](GuiObject.md)
-[[Back to top]](#reference)
+-----
+
+## GuiObject
+[[Go to page]](GuiObject.md) | [[Back to top]](#reference)
+
 #### [Variables](GuiObject.md##Variables)
 * [val](GuiObject.md#val)
 * [label](GuiObject.md#label)
@@ -77,8 +81,11 @@
 
 #### [Style](GuiObject.md#style)
 
-## [GuiButton](GuiButton.md)
-[[Back to top]](#reference)
+-----
+
+## GuiButton
+[[Go to page]](GuiButton.md) | [[Back to top]](#reference)
+
 #### [Variables](GuiButton.md#variables)
 * [val](GuiButton.md#val)
 * [label](GuiButton.md#label)
@@ -90,8 +97,11 @@
 
 #### [Style](GuiButton.md#style)
 
-## [GuiToggle](GuiToggle.md)
-[[Back to top]](#reference)
+-----
+
+## GuiToggle
+[[Go to page]](GuiToggle.md) | [[Back to top]](#reference)
+
 #### [Variables](GuiToggle.md#variables)
 * [val](GuiToggle.md#val)
 * [label](GuiToggle.md#label)
@@ -103,8 +113,11 @@
 
 #### [Style](GuiToggle.md#style)
 
-## [GuiChecbox](GuiCheckbox.md)
-[[Back to top]](#reference)
+-----
+
+## GuiCheckbox
+[[Go to page]](GuiCheckbox.md) | [[Back to top]](#reference)
+
 #### [Variables](GuiCheckbox.md#variables)
 * [val](GuiCheckbox.md#val)
 
@@ -113,8 +126,11 @@
 
 #### [Style](GuiCheckbox.md##Style)
 
-## [GuiSlider / GuiSliderV](GuiSlider.md)
-[[Back to top]](#reference)
+-----
+
+## GuiSlider / GuiSliderV
+[[Go to page]](GuiSlider.md) | [[Back to top]](#reference)
+
 #### [Variables](GuiSlider.md#variables)
 * [val](GuiSlider.md#val)
 * [min](GuiSlider.md#min)
@@ -126,8 +142,11 @@
 
 #### [Style](GuiSlider.md#style)
 
-## [GuiCrossfader / GuiCrossfaderV](GuiCrossfader.md)
-[[Back to top]](#reference)
+-----
+
+## GuiCrossfader / GuiCrossfaderV
+[[Go to page]](GuiCrossfader.md) | [[Back to top]](#reference)
+
 #### [Variables](GuiCrossfader.md#variables)
 * [val](GuiCrossfader.md#val)
 * [min](GuiCrossfader.md#min)
@@ -139,8 +158,10 @@
 
 #### [Style](GuiCrossfader.md#style)
 
-## [GuiSlider2d](GuiSlider2d.md)
-[[Back to top]](#reference)
+-----
+
+## GuiSlider2d
+[[Go to page]](GuiSlider2d.md) | [[Back to top]](#reference)
 
 #### [Variables](GuiSlider2d.md#variables)
 * [val](GuiSlider2d.md#val)
@@ -157,8 +178,10 @@
 
 #### [Style](GuiSlider2d.md#style)
 
-## [GuiJoystick](GuiJoystick.md)
-[[Back to top]](#reference)
+-----
+
+## GuiJoystick
+[[Go to page]](GuiJoystick.md) | [[Back to top]](#reference)
 
 #### [Variables](GuiJoystick.md#variables)
 * [val](GuiJoystick.md#val)
