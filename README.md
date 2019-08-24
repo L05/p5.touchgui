@@ -183,7 +183,7 @@ A two dimensional slider that returns an X/Y pair of values relative to a resett
 
 # Examples
 
-* **Simple**
+* **Beginner**
     * [Button](https://editor.p5js.org/L05/sketches/6ETiBjotm)
     * [Toggle](https://editor.p5js.org/L05/sketches/WUVbr_uqV)
     * [Checkbox](https://editor.p5js.org/L05/sketches/Kn1ecx6wv)
