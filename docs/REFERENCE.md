@@ -2,7 +2,7 @@
 
 # REFERENCE
 
-[Global](##Global-[Functions](##Functions)) | [Gui](##Gui) | [GuiObject](##GuiObject) | [GuiButton](##GuiButton) | [GuiToggle](##GuiToggle) | [GuiSlider](##GuiSlider-/-GuiSliderV) | [GuiCrossfader](##GuiCrossfader-/-GuiCrossfaderV) | [GuiSlider2d](##GuiSlider2d) | [GuiJoystick](##GuiJoystick)
+[Global](Global.md) | [Gui](Gui.md) | [GuiObject](GuiObject.md) | [GuiButton](GuiButton.md) | [GuiToggle](GuiToggle.md) | [GuiSlider](GuiSlider.md) | [GuiCrossfader](GuiCrossfader.md) | [GuiSlider2d](GuiSlider2d.md) | [GuiJoystick](GuiJoystick.md)
 
 -----
 

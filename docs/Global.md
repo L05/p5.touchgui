@@ -1,6 +1,6 @@
-[Home](../README.md)  [Reference](REFERENCE.md)
+[Home](../README.md) | [Reference](REFERENCE.md)
 
-# Library Functions
+# Global Functions
 
 **p5.touchgui** has a collection of core library functions that enable you to create and draw your [GUI (Graphical User Interface)](https://en.wikipedia.org/wiki/Graphical_user_interface) as well as various buttons. These can each be called from within your [p5.js](https://p5js.org) sketch similary to [p5.js](https://p5js.org)'s built-in functions (e.g. `createCanvas()`).
 
