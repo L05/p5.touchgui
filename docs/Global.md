@@ -396,6 +396,3 @@ createJoystick(label, x, y, [w], [h], [minX], [maxX], [maxX], [maxY])
 ##### Returns
 `GuiJoystick`
 
------
-
-## TEST
