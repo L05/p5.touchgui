@@ -4,22 +4,24 @@
 
 **p5.touchgui** has a collection of core library functions that enable you to create and draw your [GUI (Graphical User Interface)](https://en.wikipedia.org/wiki/Graphical_user_interface) as well as various buttons. These can each be called from within your [p5.js](https://p5js.org) sketch similary to [p5.js](https://p5js.org)'s built-in functions (e.g. `createCanvas()`).
 
-* [createGui()](###createGui())
-* [drawGui()](###drawGui())
-* [createButton()](###createButton())
-* [createToggle()](###createToggle())
-* [createCheckbox()](###createCheckbox())
-* [createSlider()](###createSlider())
-* [createSliderV()](###createSliderV())
-* [createCrossfader()](global.md###createCrossfader())
-* [createCrossfaderV()](###createCrossfaderV())
-* [createSlider2d()](###createSlider2d())
-* [createJoystick()](###createJoystick())
+* [createGui()](#creategui)
+* [drawGui()](#drawgui)
+* [createButton()](#createbutton)
+* [createToggle()](#createtoggle)
+* [createCheckbox()](#createcheckbox)
+* [createSlider()](#createslider)
+* [createSliderV()](#createsliderv)
+* [createCrossfader()](#createcrossfader)
+* [createCrossfaderV()](#createcrossfaderv)
+* [createSlider2d()](#createslider2d)
+* [createJoystick()](#createjoystick)
+
+[TEST](#test)
 
 -----
 
-### **[createGui()]()**
-[[Back to top]](#library-functions)
+### createGui()
+[[Back to top]](#global-functions)
 ##### Example
 ```javascript
 let gui;
@@ -46,8 +48,9 @@ createGui()
 
 -----
 
-### **[drawGui()]()**
-[[Back to top]](#library-functions)
+### drawGui()
+[[Back to top]](#global-functions)
+
 ##### Example
 ```javascript
 draw() {
@@ -72,8 +75,8 @@ drawGui()
 
 -----
 
-### **[createButton()]()**
-[[Back to top]](#library-functions)
+### createButton()
+[[Back to top]](#global-functions)
 ##### Example
 ```javascript
 let gui;
@@ -106,8 +109,8 @@ createButton(label, x, y, [w], [h])
 
 -----
 
-### **[createToggle()]()**
-[[Back to top]](#library-functions)
+### createToggle()
+[[Back to top]](#global-functions)
 ##### Example
 ```javascript
 let gui;
@@ -141,8 +144,8 @@ createToggle(label, x, y, [w], [h], [defaultVal])
 
 -----
 
-### **[createCheckbox()]()**
-[[Back to top]](#library-functions)
+### createCheckbox()
+[[Back to top]](#global-functions)
 ##### Example
 ```javascript
 let gui;
@@ -177,8 +180,8 @@ createCheckbox(label, x, y, [w], [h], [defaultVal])
 -----
 
 
-### **[createSlider()]()**
-[[Back to top]](#library-functions)
+### createSlider()
+[[Back to top]](#global-functions)
 ##### Example
 ```javascript
 let gui;
@@ -213,8 +216,8 @@ createSlider(label, x, y, [w], [h], [min], [max])
 
 -----
 
-### **[createSliderV()]()**
-[[Back to top]](#library-functions)
+### createSliderV()
+[[Back to top]](#global-functions)
 ##### Example
 ```javascript
 let gui;
@@ -249,8 +252,8 @@ createSliderV(label, x, y, [w], [h], [min], [max])
 
 -----
 
-### **[createCrossfader()]()**
-[[Back to top]](#library-functions)
+### createCrossfader()
+[[Back to top]](#global-functions)
 ##### Example
 ```javascript
 let gui;
@@ -285,8 +288,8 @@ createCrossfader(label, x, y, [w], [h], [min], [max])
 
 -----
 
-### **[createCrossfaderV()]()**
-[[Back to top]](#library-functions)
+### createCrossfaderV()
+[[Back to top]](#global-functions)
 ##### Example
 ```javascript
 let gui;
@@ -321,8 +324,8 @@ createCrossfaderV(label, x, y, [w], [h], [min], [max])
 
 -----
 
-### **[createSlider2d()]()**
-[[Back to top]](#library-functions)
+### createSlider2d()
+[[Back to top]](#global-functions)
 ##### Example
 ```javascript
 let gui;
@@ -359,8 +362,8 @@ createSlider2d(label, x, y, [w], [h], [minX], [maxX], [maxX], [maxY])
 
 -----
 
-### **[createJoystick()]()**
-[[Back to top]](#library-functions)
+### createJoystick()
+[[Back to top]](#global-functions)
 ##### Example
 ```javascript
 let gui;
@@ -396,3 +399,5 @@ createJoystick(label, x, y, [w], [h], [minX], [maxX], [maxX], [maxY])
 `GuiJoystick`
 
 -----
+
+## TEST

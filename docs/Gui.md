@@ -13,10 +13,10 @@
 -----
 
 
-### [objects[]]()
+### objects[]
 An array of `GuiObject` objects stored within the `Gui`.
 
-### [style]()
+### style
 The global `GuiStyle` object. This holds the style presets for `p5.touchgui`.
 
 -----
@@ -24,7 +24,9 @@ The global `GuiStyle` object. This holds the style presets for `p5.touchgui`.
 ## Functions
 
 -----
-### [get()]()
+### get()
+[[Back to top]](#gui)
+
 ##### Example
 ```javascript
 let gui;
@@ -57,7 +59,9 @@ get(label)
 
 -----
 
-### [loadStyle()]()
+### loadStyle()
+[[Back to top]](#gui)
+
 ##### Example
 ```javascript
 let gui;
@@ -94,7 +98,9 @@ loadStyle(preset)
 
 -----
 
-### [updateStyle()]()
+### updateStyle()
+[[Back to top]](#gui)
+
 ##### Example
 ```javascript
 let gui;
@@ -126,7 +132,9 @@ updateStyle()
 
 -----
 
-### [setStrokeWeight()]()
+### setStrokeWeight()
+[[Back to top]](#gui)
+
 ##### Example
 ```javascript
 let gui;
@@ -154,7 +162,9 @@ setStrokeWeight(weight)
 
 -----
 
-### [setRounding()]()
+### setRounding()
+[[Back to top]](#gui)
+
 ##### Example
 ```javascript
 let gui;
@@ -182,7 +192,9 @@ setRounding(rounding)
 
 -----
 
-### [setFont()]()
+### setFont()
+[[Back to top]](#gui)
+
 ##### Example
 ```javascript
 let gui;
@@ -225,7 +237,9 @@ setFont(font)
 
 -----
 
-### [setTextSize()]()
+### setTextSize()
+[[Back to top]](#gui)
+
 ##### Example
 ```javascript
 let gui;
@@ -252,7 +266,9 @@ setTextSize(theSize)
 `None`
 
 -----
-### [setTrackWidth()]()
+### setTrackWidth()
+[[Back to top]](#gui)
+
 ##### Example
 ```javascript
 let gui;

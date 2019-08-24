@@ -10,7 +10,9 @@ Momentary button class.
 
 -----
 
-### [val]()
+### val
+[[Back to top]](#guibutton)
+
 ##### Example
 ```javascript
 button.val = True;
@@ -23,7 +25,9 @@ Value of the `GuiButton`.
 
 -----
 
-### [label]()
+### label
+[[Back to top]](#guibutton)
+
 ```javascript
 button.label = "Button";
 
@@ -35,7 +39,9 @@ Label of the `GuiButton`. Setting the `label` will automatically set `labelOn` a
 
 -----
 
-### [labelOn]()
+### labelOn
+[[Back to top]](#guibutton)
+
 ```javascript
 button.labelOn = "Button On";
 
@@ -48,7 +54,9 @@ Label of the `GuiButton` when pressed or "on".
 -----
 
 
-### [labelOff]()
+### labelOff
+[[Back to top]](#guibutton)
+
 ```javascript
 button.labelOff = "Button Off";
 
@@ -64,7 +72,9 @@ Label of the `GuiButton` when unpressed or "off".
 
 -----
 
-### [setStyle()]()
+### setStyle()
+[[Back to top]](#guibutton)
+
 ##### Example
 ```javascript
 button.setStyle("fillBg", color(255, 0, 0));
@@ -97,6 +107,7 @@ setStyle(Object)
 -----
 
 ## Style
+[[Back to top]](#guibutton)
 
 The `GuiButton` style properties are:
 * `strokeWeight` Number: the weight (in pixels) of the stroke

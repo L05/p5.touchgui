@@ -11,7 +11,9 @@
 
 -----
 
-### [val]()
+### val
+[[Back to top]](#guiobject)
+
 ##### Example
 ```javascript
 s = createSlider("Slider", 50, 50);
@@ -28,7 +30,9 @@ Value of the `GuiObject`.
 
 -----
 
-### [label]()
+### label
+[[Back to top]](#guiobject)
+
 ##### Example
 ```javascript
 b = createButton("Button", 50, 50);
@@ -45,7 +49,9 @@ Label of the `GuiObject`.
 
 -----
 
-### [x]()
+### x
+[[Back to top]](#guiobject)
+
 ##### Example
 ```javascript
 b = createButton("Button", 50, 50);
@@ -62,7 +68,9 @@ x-coordinate of the `GuiObject`.
 
 -----
 
-### [y]()
+### y
+[[Back to top]](#guiobject)
+
 ##### Example
 ```javascript
 b = createButton("Button", 50, 50);
@@ -79,7 +87,9 @@ y-coordinate of the `GuiObject`.
 
 -----
 
-### [w]()
+### w
+[[Back to top]](#guiobject)
+
 ##### Example
 ```javascript
 b = createButton("Button", 50, 50);
@@ -96,7 +106,9 @@ Width of the `GuiObject`.
 
 -----
 
-### [h]()
+### h
+[[Back to top]](#guiobject)
+
 ##### Example
 ```javascript
 b = createButton("Button", 50, 50);
@@ -113,7 +125,9 @@ Height of the `GuiObject`.
 
 -----
 
-### [mode]()
+### mode
+[[Back to top]](#guiobject)
+
 ##### Example
 ```javascript
 b = createButton("Button", 50, 50);
@@ -127,7 +141,9 @@ Interaction mode of the `GuiObject`. Can be set to `"onPress"` or `"onRelease"`.
 
 -----
 
-### [isPressed]()
+### isPressed
+[[Back to top]](#guiobject)
+
 ##### Example
 ```javascript
 if (button.isPressed) {
@@ -140,7 +156,9 @@ This is a `Boolean` that is `True` when the `GuiObject` is first pressed and `Fa
 
 -----
 
-### [isHeld]()
+### isHeld
+[[Back to top]](#guiobject)
+
 ##### Example
 ```javascript
 if (button.isHeld) {
@@ -153,7 +171,9 @@ This is a `Boolean` that is `True` when the `GuiObject` is held and `False` othe
 
 -----
 
-### [isReleased]()
+### isReleased
+[[Back to top]](#guiobject)
+
 ##### Example
 ```javascript
 if (button.isReleased) {
@@ -166,7 +186,9 @@ This is a `Boolean` that is `True` when the `GuiObject` is released and `False` 
 
 -----
 
-### [isChanged]()
+### isChanged
+[[Back to top]](#guiobject)
+
 ##### Example
 ```javascript
 if (button.isChanged) {
@@ -179,7 +201,9 @@ This is a `Boolean` that is `True` when the `GuiObject` is changed and `False` o
 
 -----
 
-### [onPress]()
+### onPress
+[[Back to top]](#guiobject)
+
 ##### Example
 ```javascript
 button.onPress = function() {
@@ -207,7 +231,9 @@ A user-defined callback function for `onPress` events can be added to a `GuiObje
 
 -----
 
-### [onHold]()
+### onHold
+[[Back to top]](#guiobject)
+
 ##### Example
 ```javascript
 button.onHold = function() {
@@ -235,7 +261,9 @@ A user-defined callback function for `onHold` events can be added to a `GuiObjec
 
 -----
 
-### [onRelease]()
+### onRelease
+[[Back to top]](#guiobject)
+
 ##### Example
 ```javascript
 button.onRelease = function() {
@@ -263,7 +291,9 @@ A user-defined callback function for `onRelease` events can be added to a `GuiOb
 
 -----
 
-### [onChange]()
+### onChange
+[[Back to top]](#guiobject)
+
 ##### Example
 ```javascript
 button.onChange = function() {
@@ -291,7 +321,9 @@ A user-defined callback function for `onChange` events can be added to a `GuiObj
 
 -----
 
-### [enabled]()
+### enabled
+[[Back to top]](#guiobject)
+
 ##### Example
 ```javascript
 button.enabled = False;
@@ -302,7 +334,9 @@ A `Boolean` value that determines whether the `GuiObject` is enabled to receive 
 
 -----
 
-### [visible]()
+### visible
+[[Back to top]](#guiobject)
+
 ##### Example
 ```javascript
 button.visible = False;
@@ -317,7 +351,9 @@ A `Boolean` value that determines whether the `GuiObject` is visible (i.e. drawn
 
 -----
 
-### [setStyle()]()
+### setStyle()
+[[Back to top]](#guiobject)
+
 ##### Example
 ```javascript
 button.setStyle("rounding", 10);
@@ -348,7 +384,9 @@ setStyle(Object)
 
 -----
 
-### [draw()]()
+### draw()
+[[Back to top]](#guiobject)
+
 ##### Example
 ```javascript
 button.draw()

@@ -8,173 +8,168 @@
 
 ## [Global](Global.md)
 
-**[createGui()](Global.md)**
+**[createGui()](Global.md#creategui)**
 
-**[drawGui()](Global.md)**
+**[drawGui()](Global.md#drawgui)**
 
-**[createButton()](Global.md)**
+**[createButton()](Global.md#createbutton)**
 
-**[createToggle()](Global.md)**
+**[createToggle()](Global.md#createtoggle)**
 
-**[createCheckbox()](Global.md)**
+**[createCheckbox()](Global.md#createcheckbox)**
 
-**[createSlider()](Global.md)**
+**[createSlider()](Global.md#createslider)**
 
-**[createSliderV()](Global.md)**
+**[createSliderV()](Global.md#createsliderv)**
 
-**[createCrossfader()](Global.md)**
+**[createCrossfader()](Global.md#createcrossfader)**
 
-**[createCrossfaderV()](Global.md)**
+**[createCrossfaderV()](Global.md#createcrossfaderv)**
 
-**[createSlider2d()](Global.md)**
+**[createSlider2d()](Global.md#createslider2d)**
 
-**[createJoystick()](Global.md)**
+**[createJoystick()](Global.md#createjoystick)**
 
 -----
 
 ## [Gui](Gui.md)
 [[Back to top]](#reference)
-#### [Variables](Gui.md##Variables)
-* [objects[]](Gui.md###objects[])
-* [style](Gui.md###style)
+#### [Variables](Gui.md#variables)
+* [objects[]](Gui.md#objects)
+* [style](Gui.md#style)
 
-#### [Functions](Gui.md##Functions)
-* [get()](Gui.md###get())
-* [loadStyle()](Gui.md###loadStyle())
-* [updateStyle()](Gui.md###updateStyle())
-* [setStrokeWeight()](Gui.md###setStrokeWeight())
-* [setRounding()](Gui.md###setRounding())
-* [setFont()](Gui.md###setFont())
-* [setTextSize()](Gui.md###setTextSize())
-* [setTrackWidth()](Gui.md###setTrackWidth())
+#### [Functions](Gui.md#functions)
+* [get()](Gui.md#get)
+* [loadStyle()](Gui.md#loadstyle)
+* [updateStyle()](Gui.md#updatestyle)
+* [setStrokeWeight()](Gui.md#setstrokeweight)
+* [setRounding()](Gui.md#setrounding)
+* [setFont()](Gui.md#setfont)
+* [setTextSize()](Gui.md#settextsize)
+* [setTrackWidth()](Gui.md#settrackwidth)
 
 #### [Style](Gui.md##Style)
 
 ## [GuiObject](GuiObject.md)
 [[Back to top]](#reference)
 #### [Variables](GuiObject.md##Variables)
-* [val](GuiObject.md###val)
-* [label](GuiObject.md###label)
-* [x](GuiObject.md###x)
-* [y](GuiObject.md###y)
-* [w](GuiObject.md###w)
-* [h](GuiObject.md###h)
-* [mode](GuiObject.md###mode)
-* [isPressed](GuiObject.md###isPressed)
-* [isHeld](GuiObject.md###isHeld)
-* [isReleased](GuiObject.md###isReleased)
-* [isChanged](GuiObject.md###isChanged)
-* [onPress](GuiObject.md###onPress)
-* [onHold](GuiObject.md###onHold)
-* [onRelease](GuiObject.md###onRelease)
-* [onChange](GuiObject.md###onChange)
-* [enabled](GuiObject.md###enabled)
-* [visible](GuiObject.md###visible)
+* [val](GuiObject.md#val)
+* [label](GuiObject.md#label)
+* [x](GuiObject.md#x)
+* [y](GuiObject.md#y)
+* [w](GuiObject.md#w)
+* [h](GuiObject.md#h)
+* [mode](GuiObject.md#mode)
+* [isPressed](GuiObject.md#ispressed)
+* [isHeld](GuiObject.md#isheld)
+* [isReleased](GuiObject.md#isreleased)
+* [isChanged](GuiObject.md#ischanged)
+* [onPress](GuiObject.md#onpress)
+* [onHold](GuiObject.md#onhold)
+* [onRelease](GuiObject.md#onrelease)
+* [onChange](GuiObject.md#onchange)
+* [enabled](GuiObject.md#enabled)
+* [visible](GuiObject.md#visible)
 
-#### [Functions](GuiObject.md##Functions)
-* [setStyle()](GuiObject.md###setStyle())
-* [draw()](GuiObject.md###draw())
+#### [Functions](GuiObject.md#functions)
+* [setStyle()](GuiObject.md#setstyle)
+* [draw()](GuiObject.md#draw)
 
-#### [Style](GuiObject.md##Style)
+#### [Style](GuiObject.md#style)
 
 ## [GuiButton](GuiButton.md)
 [[Back to top]](#reference)
-#### [Variables](GuiButton.md##Variables)
-* [val](GuiButton.md###val)
-* [label](GuiButton.md###label)
-* [labelOn](GuiButton.md###labelOn)
-* [labelOff](GuiButton.md###labelOff)
+#### [Variables](GuiButton.md#variables)
+* [val](GuiButton.md#val)
+* [label](GuiButton.md#label)
+* [labelOn](GuiButton.md#labelon)
+* [labelOff](GuiButton.md#labeloff)
 
-#### [Functions](GuiButton.md##Functions)
-* [setStyle()](GuiButton.md###setStyle())
-* [draw()](GuiButton.md###draw())
+#### [Functions](GuiButton.md#functions)
+* [setStyle()](GuiButton.md#setstyle)
 
-#### [Style](GuiButton.md##Style)
+#### [Style](GuiButton.md#style)
 
 ## [GuiToggle](GuiToggle.md)
 [[Back to top]](#reference)
-#### [Variables](GuiToggle.md##Variables)
-* [val](GuiToggle.md###val)
-* [label](GuiToggle.md###label)
-* [labelOn](GuiToggle.md###labelOn)
-* [labelOff](GuiToggle.md###labelOff)
+#### [Variables](GuiToggle.md#variables)
+* [val](GuiToggle.md#val)
+* [label](GuiToggle.md#label)
+* [labelOn](GuiToggle.md#labelon)
+* [labelOff](GuiToggle.md#labeloff)
 
-#### [Functions](GuiToggle.md##Functions)
-* [setStyle()](GuiToggle.md###setStyle())
-* [draw()](GuiToggle.md###draw())
+#### [Functions](GuiToggle.md#functions)
+* [setStyle()](GuiToggle.md#setstyle)
 
-#### [Style](GuiToggle.md##Style)
+#### [Style](GuiToggle.md#style)
 
 ## [GuiChecbox](GuiCheckbox.md)
 [[Back to top]](#reference)
-#### [Variables](GuiCheckbox.md##Variables)
-* [val](GuiCheckbox.md###val)
+#### [Variables](GuiCheckbox.md#variables)
+* [val](GuiCheckbox.md#val)
 
-#### [Functions](GuiCheckbox.md##Functions)
-* [setStyle()](GuiCheckbox.md###setStyle())
-* [draw()](GuiCheckbox.md###draw())
+#### [Functions](GuiCheckbox.md#functions)
+* [setStyle()](GuiCheckbox.md#setstyle)
 
 #### [Style](GuiCheckbox.md##Style)
 
 ## [GuiSlider / GuiSliderV](GuiSlider.md)
 [[Back to top]](#reference)
-#### [Variables](GuiSlider.md##Variables)
-* [val](GuiSlider.md###val)
-* [min](GuiSlider.md###min)
-* [max](GuiSlider.md###max)
-* [isInteger](GuiSlider.md###isInteger)
+#### [Variables](GuiSlider.md#variables)
+* [val](GuiSlider.md#val)
+* [min](GuiSlider.md#min)
+* [max](GuiSlider.md#max)
+* [isInteger](GuiSlider.md#isinteger)
 
-#### [Functions](GuiSlider.md##Functions)
-* [setStyle()](GuiSlider.md###setStyle())
-* [draw()](GuiSlider.md###draw())
+#### [Functions](GuiSlider.md#functions)
+* [setStyle()](GuiSlider.md#setstyle)
 
-#### [Style](GuiSlider.md##Style)
+#### [Style](GuiSlider.md#style)
 
 ## [GuiCrossfader / GuiCrossfaderV](GuiCrossfader.md)
 [[Back to top]](#reference)
-#### [Variables](GuiCrossfader.md##Variables)
-* [val](GuiCrossfader.md###val)
-* [min](GuiCrossfader.md###min)
-* [max](GuiCrossfader.md###max)
-* [isInteger](GuiCrossfader.md###isInteger)
+#### [Variables](GuiCrossfader.md#variables)
+* [val](GuiCrossfader.md#val)
+* [min](GuiCrossfader.md#min)
+* [max](GuiCrossfader.md#max)
+* [isInteger](GuiCrossfader.md#isinteger)
 
-#### [Functions](GuiCrossfader.md##Functions)
-* [setStyle()](GuiCrossfader.md###setStyle())
-* [draw()](GuiCrossfader.md###draw())
+#### [Functions](GuiCrossfader.md#functions)
+* [setStyle()](GuiCrossfader.md#setstyle)
 
-#### [Style](GuiCrossfader.md##Style)
+#### [Style](GuiCrossfader.md#style)
 
 ## [GuiSlider2d](GuiSlider2d.md)
 [[Back to top]](#reference)
-#### [Variables](GuiSlider2d.md##Variables)
-* [val](GuiSlider2d.md###val)
-* [valX](GuiSlider2d.md###valX)
-* [valY](GuiSlider2d.md###valY)
-* [minX](GuiSlider2d.md###minX)
-* [maxX](GuiSlider2d.md###maxX)
-* [minY](GuiSlider2d.md###minY)
-* [maxY](GuiSlider2d.md###maxY)
-* [isInteger](GuiSlider2d.md###isInteger)
 
-#### [Functions](GuiSlider2d.md##Functions)
-* [setStyle()](GuiSlider2d.md###setStyle())
-* [draw()](GuiSlider2d.md###draw())
+#### [Variables](GuiSlider2d.md#variables)
+* [val](GuiSlider2d.md#val)
+* [valX](GuiSlider2d.md#valx)
+* [valY](GuiSlider2d.md#valy)
+* [minX](GuiSlider2d.md#minx)
+* [maxX](GuiSlider2d.md#maxx)
+* [minY](GuiSlider2d.md#miny)
+* [maxY](GuiSlider2d.md#maxy)
+* [isInteger](GuiSlider2d.md#isinteger)
 
-#### [Style](GuiSlider2d.md##Style)
+#### [Functions](GuiSlider2d.md#functions)
+* [setStyle()](GuiSlider2d.md#setstyle)
+
+#### [Style](GuiSlider2d.md#style)
 
 ## [GuiJoystick](GuiJoystick.md)
 [[Back to top]](#reference)
-#### [Variables](GuiJoystick.md##Variables)
-* [val](GuiSlider2d.md###val)
-* [valX](GuiSlider2d.md###valX)
-* [valY](GuiSlider2d.md###valY)
-* [minX](GuiSlider2d.md###minX)
-* [maxX](GuiSlider2d.md###maxX)
-* [minY](GuiSlider2d.md###minY)
-* [maxY](GuiSlider2d.md###maxY)
 
-#### [Functions](GuiJoystick.md##Functions)
-* [setStyle()](GuiSlider2d.md###setStyle())
-* [draw()](GuiSlider2d.md###draw())
+#### [Variables](GuiJoystick.md#variables)
+* [val](GuiJoystick.md#val)
+* [valX](GuiJoystick.md#valx)
+* [valY](GuiJoystick.md#valy)
+* [minX](GuiJoystick.md#minx)
+* [maxX](GuiJoystick.md#maxx)
+* [minY](GuiJoystick.md#miny)
+* [maxY](GuiJoystick.md#maxy)
 
-#### [Style](GuiJoystick.md)
+#### [Functions](GuiJoystick.md#functions)
+* [setStyle()](GuiJoystick.md#setstyle)
+
+#### [Style](GuiJoystick.md#style)

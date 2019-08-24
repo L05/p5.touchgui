@@ -10,7 +10,9 @@ Toggle button class.
 
 -----
 
-### [val]()
+### val
+[[Back to top]](#guitoggle)
+
 ##### Example
 ```javascript
 toggle.val = True;
@@ -23,7 +25,9 @@ Value of the `GuiToggle`.
 
 -----
 
-### [label]()
+### label
+[[Back to top]](#guitoggle)
+
 ```javascript
 toggle.label = "Toggle";
 
@@ -35,7 +39,9 @@ Label of the `GuiToggle`. Setting the `label` will automatically set `labelOn` a
 
 -----
 
-### [labelOn]()
+### labelOn
+[[Back to top]](#guitoggle)
+
 ```javascript
 toggle.labelOn = "Toggle On";
 
@@ -48,7 +54,9 @@ Label of the `GuiToggle` when pressed or "on".
 -----
 
 
-### [labelOff]()
+### labelOff
+[[Back to top]](#guitoggle)
+
 ```javascript
 toggle.labelOff = "Toggle Off";
 
@@ -63,6 +71,8 @@ Label of the `GuiToggle` when unpressed or "off".
 ## Functions
 
 -----
+### setStyle()
+[[Back to top]](#guitoggle)
 
 ##### Example
 ```javascript
@@ -96,6 +106,7 @@ setStyle(Object)
 -----
 
 ## Style
+[[Back to top]](#guitoggle)
 
 The `GuiToggle` style properties are:
 * `strokeWeight` Number: the weight (in pixels) of the stroke
