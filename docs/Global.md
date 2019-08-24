@@ -31,7 +31,7 @@ function setup() {
 
 ```
 ##### Description
-Creates a new `Guit` object, which retains and computes all of the information regarding your GUI, including style, user input, and object states. This should be called from within your sketch's `setup()` function.
+Creates a new `Gui` object, which retains and computes all of the information regarding your GUI, including style, user input, and object states. This should be called from within your sketch's `setup()` function.
 
 ##### Syntax
 ```javascript
