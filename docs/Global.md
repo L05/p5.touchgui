@@ -1,4 +1,4 @@
-[Home](../README.md) | [Reference](REFERENCE.md)
+[Home](../README.md)  [Reference](REFERENCE.md)
 
 # Library Functions
 
@@ -31,7 +31,7 @@ function setup() {
 
 ```
 ##### Description
-Creates a new `GuiContext` object, which retains and computes all of the information regarding your GUI, including style, user input, and object states. This should be called from within your sketch's `setup()` function.
+Creates a new `Guit` object, which retains and computes all of the information regarding your GUI, including style, user input, and object states. This should be called from within your sketch's `setup()` function.
 
 ##### Syntax
 ```javascript
@@ -42,8 +42,9 @@ createGui()
 `None`
 
 ##### Returns
-`GuiContext`
+`Gui`
 
+-----
 
 ### **[drawGui()]()**
 [[Back to top]](#library-functions)
@@ -56,7 +57,7 @@ draw() {
 
 ```
 ##### Description
-Draws all of the objects in your `GuiContext`. This should be called in your `draw()` loop.
+Draws all of the objects in your `Gui`. This should be called in your `draw()` loop.
 
 ##### Syntax
 ```javascript
@@ -69,6 +70,7 @@ drawGui()
 ##### Returns
 `None`
 
+-----
 
 ### **[createButton()]()**
 [[Back to top]](#library-functions)
@@ -93,15 +95,16 @@ createButton(label, x, y, [w], [h])
 ```
 
 ##### Parameters
-| `label` | String: label for the GuiButton |
-| `x` | Number: x-coordinate of the GuiButton |
-| `y` | Number: y-coordinate of the GuiButton |
-| `w` | Number: width of the GuiButton (default is 128) |
-| `h` | Number: height of the GuiButton (default is 32) |
+* `label`  String: label for the GuiButton 
+* `x`  Number: x-coordinate of the GuiButton 
+* `y`  Number: y-coordinate of the GuiButton 
+* `w`  Number: width of the GuiButton (default is 128) 
+* `h`  Number: height of the GuiButton (default is 32) 
 
 ##### Returns
 `GuiButton`
 
+-----
 
 ### **[createToggle()]()**
 [[Back to top]](#library-functions)
@@ -126,16 +129,17 @@ createToggle(label, x, y, [w], [h], [defaultVal])
 ```
 
 ##### Parameters
-| `label` | String: label for the GuiToggle |
-| `x` | Number: x-coordinate of the GuiToggle |
-| `y` | Number: y-coordinate of the GuiToggle |
-| `w` | Number: width of the GuiToggle (default is 128) |
-| `h` | Number: height of the GuiToggle (default is 32) |
-| `defaultVal` | Number: default value for your GuiToggle (default is `false`) |
+* `label`  String: label for the GuiToggle 
+* `x`  Number: x-coordinate of the GuiToggle 
+* `y`  Number: y-coordinate of the GuiToggle 
+* `w`  Number: width of the GuiToggle (default is 128) 
+* `h`  Number: height of the GuiToggle (default is 32) 
+* `defaultVal`  Number: default value for your GuiToggle (default is `false`) 
 
 ##### Returns
 `GuiToggle`
 
+-----
 
 ### **[createCheckbox()]()**
 [[Back to top]](#library-functions)
@@ -160,16 +164,17 @@ createCheckbox(label, x, y, [w], [h], [defaultVal])
 ```
 
 ##### Parameters
-| `label` | String: label for the GuiCheckbox |
-| `x` | Number: x-coordinate of the GuiCheckbox |
-| `y` | Number: y-coordinate of the GuiCheckbox |
-| `w` | Number: width of the GuiCheckbox (default is 32) |
-| `h` | Number: height of the GuiCheckbox (default is 32) |
-| `defaultVal` | Number: default value for your GuiCheckbox (default is `false`) |
+* `label`  String: label for the GuiCheckbox 
+* `x`  Number: x-coordinate of the GuiCheckbox 
+* `y`  Number: y-coordinate of the GuiCheckbox 
+* `w`  Number: width of the GuiCheckbox (default is 32) 
+* `h`  Number: height of the GuiCheckbox (default is 32) 
+* `defaultVal`  Number: default value for your GuiCheckbox (default is `false`) 
 
 ##### Returns
 `GuiCheckbox`
 
+-----
 
 
 ### **[createSlider()]()**
@@ -195,17 +200,18 @@ createSlider(label, x, y, [w], [h], [min], [max])
 ```
 
 ##### Parameters
-| `label` | String: label for the GuiSlider |
-| `x` | Number: x-coordinate of the GuiSlider |
-| `y` | Number: y-coordinate of the GuiSlider |
-| `w` | Number: width of the GuiSlider (default is 128) |
-| `h` | Number: height of the GuiSlider (default is 32) |
-| `min` | Number: lower bound of the value's range (default value is 0) |
-| `max` | Number: upper bound of the value's range (default value is 1) |
+* `label`  String: label for the GuiSlider 
+* `x`  Number: x-coordinate of the GuiSlider 
+* `y`  Number: y-coordinate of the GuiSlider 
+* `w`  Number: width of the GuiSlider (default is 128) 
+* `h`  Number: height of the GuiSlider (default is 32) 
+* `min`  Number: lower bound of the value's range (default value is 0) 
+* `max`  Number: upper bound of the value's range (default value is 1) 
 
 ##### Returns
 `GuiSlider`
 
+-----
 
 ### **[createSliderV()]()**
 [[Back to top]](#library-functions)
@@ -230,17 +236,18 @@ createSliderV(label, x, y, [w], [h], [min], [max])
 ```
 
 ##### Parameters
-| `label` | String: label for the GuiSliderV |
-| `x` | Number: x-coordinate of the GuiSliderV |
-| `y` | Number: y-coordinate of the GuiSliderV |
-| `w` | Number: width of the GuiSliderV (default is 32) |
-| `h` | Number: height of the GuiSliderV (default is 128) |
-| `min` | Number: lower bound of the value's range (default value is 0) |
-| `max` | Number: upper bound of the value's range (default value is 1) |
+* `label`  String: label for the GuiSliderV 
+* `x`  Number: x-coordinate of the GuiSliderV 
+* `y`  Number: y-coordinate of the GuiSliderV 
+* `w`  Number: width of the GuiSliderV (default is 32) 
+* `h`  Number: height of the GuiSliderV (default is 128) 
+* `min`  Number: lower bound of the value's range (default value is 0) 
+* `max`  Number: upper bound of the value's range (default value is 1) 
 
 ##### Returns
 `GuiSliderV`
 
+-----
 
 ### **[createCrossfader()]()**
 [[Back to top]](#library-functions)
@@ -265,17 +272,18 @@ createCrossfader(label, x, y, [w], [h], [min], [max])
 ```
 
 ##### Parameters
-| `label` | String: label for the GuiCrossfader |
-| `x` | Number: x-coordinate of the GuiCrossfader |
-| `y` | Number: y-coordinate of the GuiCrossfader |
-| `w` | Number: width of the GuiCrossfader (default is 128) |
-| `h` | Number: height of the GuiCrossfader (default is 32) |
-| `min` | Number: lower bound of the value's range (default value is -1) |
-| `max` | Number: upper bound of the value's range (default value is 1) |
+* `label`  String: label for the GuiCrossfader 
+* `x`  Number: x-coordinate of the GuiCrossfader 
+* `y`  Number: y-coordinate of the GuiCrossfader 
+* `w`  Number: width of the GuiCrossfader (default is 128) 
+* `h`  Number: height of the GuiCrossfader (default is 32) 
+* `min`  Number: lower bound of the value's range (default value is -1) 
+* `max`  Number: upper bound of the value's range (default value is 1) 
 
 ##### Returns
 `GuiCrossfader`
 
+-----
 
 ### **[createCrossfaderV()]()**
 [[Back to top]](#library-functions)
@@ -300,17 +308,18 @@ createCrossfaderV(label, x, y, [w], [h], [min], [max])
 ```
 
 ##### Parameters
-| `label` | String: label for the GuiCrossfaderV |
-| `x` | Number: x-coordinate of the GuiCrossfaderV |
-| `y` | Number: y-coordinate of the GuiCrossfaderV |
-| `w` | Number: width of the GuiCrossfaderV (default is 32) |
-| `h` | Number: height of the GuiCrossfaderV (default is 128) |
-| `min` | Number: lower bound of the value's range (default value is -1) |
-| `max` | Number: upper bound of the value's range (default value is 1) |
+* `label`  String: label for the GuiCrossfaderV 
+* `x`  Number: x-coordinate of the GuiCrossfaderV 
+* `y`  Number: y-coordinate of the GuiCrossfaderV 
+* `w`  Number: width of the GuiCrossfaderV (default is 32) 
+* `h`  Number: height of the GuiCrossfaderV (default is 128) 
+* `min`  Number: lower bound of the value's range (default value is -1) 
+* `max`  Number: upper bound of the value's range (default value is 1) 
 
 ##### Returns
 `GuiCrossfaderV`
 
+-----
 
 ### **[createSlider2d()]()**
 [[Back to top]](#library-functions)
@@ -335,19 +344,20 @@ createSlider2d(label, x, y, [w], [h], [minX], [maxX], [maxX], [maxY])
 ```
 
 ##### Parameters
-| `label` | String: label for the GuiSlider2d |
-| `x` | Number: x-coordinate of the GuiSlider2d |
-| `y` | Number: y-coordinate of the GuiSlider2d |
-| `w` | Number: width of the GuiSlider2d (default is 256) |
-| `h` | Number: height of the GuiSlider2d (default is 256) |
-| `minX` | Number: lower bound of the value's x range (default value is -1) |
-| `maxX` | Number: upper bound of the value's x range (default value is 1) |
-| `minY` | Number: lower bound of the value's y range (default value is -1) |
-| `maxY` | Number: upper bound of the value's y range (default value is 1) |
+* `label`  String: label for the GuiSlider2d 
+* `x`  Number: x-coordinate of the GuiSlider2d 
+* `y`  Number: y-coordinate of the GuiSlider2d 
+* `w`  Number: width of the GuiSlider2d (default is 256) 
+* `h`  Number: height of the GuiSlider2d (default is 256) 
+* `minX`  Number: lower bound of the value's x range (default value is -1) 
+* `maxX`  Number: upper bound of the value's x range (default value is 1) 
+* `minY`  Number: lower bound of the value's y range (default value is -1) 
+* `maxY`  Number: upper bound of the value's y range (default value is 1) 
 
 ##### Returns
 `GuiSlider2d`
 
+-----
 
 ### **[createJoystick()]()**
 [[Back to top]](#library-functions)
@@ -372,15 +382,17 @@ createJoystick(label, x, y, [w], [h], [minX], [maxX], [maxX], [maxY])
 ```
 
 ##### Parameters
-| `label` | String: label for the GuiJoystick |
-| `x` | Number: x-coordinate of the GuiJoystick |
-| `y` | Number: y-coordinate of the GuiJoystick |
-| `w` | Number: width of the GuiJoystick (default is 256) |
-| `h` | Number: height of the GuiJoystick (default is 256) |
-| `minX` | Number: lower bound of the value's x range (default value is -1) |
-| `maxX` | Number: upper bound of the value's x range (default value is 1) |
-| `minY` | Number: lower bound of the value's y range (default value is -1) |
-| `maxY` | Number: upper bound of the value's y range (default value is 1) |
+* `label`  String: label for the GuiJoystick 
+* `x`  Number: x-coordinate of the GuiJoystick 
+* `y`  Number: y-coordinate of the GuiJoystick 
+* `w`  Number: width of the GuiJoystick (default is 256) 
+* `h`  Number: height of the GuiJoystick (default is 256) 
+* `minX`  Number: lower bound of the value's x range (default value is -1) 
+* `maxX`  Number: upper bound of the value's x range (default value is 1) 
+* `minY`  Number: lower bound of the value's y range (default value is -1) 
+* `maxY`  Number: upper bound of the value's y range (default value is 1) 
 
 ##### Returns
 `GuiJoystick`
+
+-----
