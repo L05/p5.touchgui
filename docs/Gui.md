@@ -72,7 +72,7 @@ function setup() {
 
 ##### Description
 Loads a `GuiStyle` preset style based on string input. Options are:
-* `"DefaultGray"`
+* `"Gray"`
 * `"Rose"`
 * `"Seafoam"`
 * `"Blue"`
@@ -292,3 +292,26 @@ setTrackWidth(ratio)
 `None`
 
 -----
+
+## Style
+
+These are the preset styles for **p5.touchgui**:
+
+* `"Gray"`
+![Gray preset](../design/Gray.png)
+* `"Rose"`
+![Rose preset](../design/Rose.png)
+* `"Seafoam"`
+![Seafoam preset](../design/Seafoam.png)
+* `"Blue"`
+![Blue preset](../design/Blue.png)
+* `"TerminalGreen"`
+![TerminalGreen preset](../design/TerminalGreen.png)
+* `"TerminalRed"`
+![TerminalRed preset](../design/TerminalRed.png)
+* `"TerminalBlue"`
+![TerminalBlue preset](../design/TerminalBlue.png)
+* `"TerminalYellow"`
+![TerminalYellow preset](../design/TerminalYellow.png)
+* `"TerminalMagenta"`
+![TerminalMagenta preset](../design/TerminalMagenta.png)

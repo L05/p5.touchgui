@@ -23,6 +23,7 @@
 # Getting Started
 
 ## Quick Start
+[[Back to top]](#p5touchgui)
 
 There are two ways to quickly get started with p5.touchgui.
 
@@ -74,6 +75,7 @@ In an **index.html** file, copy and paste the following and open up that file in
 That's all!
 
 ## My First Button
+[[Back to top]](#p5touchgui)
 
 *(Follow along [here](https://editor.p5js.org/L05/sketches/YjR7CxKg-).)*
 
@@ -144,6 +146,7 @@ function draw() {
 Congratulations! You've created your first sketch using *p5.touchgui*. If you want to see what this looks like, [click here](https://editor.p5js.org/L05/sketches/YjR7CxKg-).
 
 # Object Types
+[[Back to top]](#p5touchgui)
 
 * **Button**
 A button with a label that highlights when touched or clicked. When released it turns off.
@@ -182,6 +185,7 @@ A two dimensional slider that returns an X/Y pair of values relative to a resett
 <br>
 
 # Examples
+[[Back to top]](#p5touchgui)
 
 * **Beginner**
     * [Button](https://editor.p5js.org/L05/sketches/6ETiBjotm)
@@ -205,6 +209,7 @@ A two dimensional slider that returns an X/Y pair of values relative to a resett
 * **[Demo](https://editor.p5js.org/L05/sketches/LWfA8lGwe)**
 
 ## Using the OSC Examples
+[[Back to top]](#p5touchgui)
 
 In order to run the OSC examples you'll need to do the following:
 
