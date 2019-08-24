@@ -16,8 +16,6 @@
 * [createSlider2d()](#createslider2d)
 * [createJoystick()](#createjoystick)
 
-[TEST](#test)
-
 -----
 
 ### createGui()
