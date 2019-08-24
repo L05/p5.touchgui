@@ -15,7 +15,7 @@ function draw() {
   background(220);
   drawGui();
   
-  if (cb1.pressed) {
+  if (cb1.isPressed) {
     // Print a message when Checkbox is pressed
     // that displays its value.
     print(cb1.label + " is " + cb1.val);

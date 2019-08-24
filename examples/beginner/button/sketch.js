@@ -15,12 +15,12 @@ function draw() {
   background(220);
   drawGui();
   
-  if (b.pressed) {
+  if (b.isPressed) {
     // Print a message when Button is pressed.
     print(b.label + " pressed.");
   }
   
-  if (b.held) {
+  if (b.isHeld) {
     // Draw an ellipse when Button is held.
     fill(255, 0, 0);
     ellipse(200, 300, 100);

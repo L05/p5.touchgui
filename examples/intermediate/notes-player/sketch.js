@@ -30,14 +30,14 @@ function draw() {
   background(20);
   drawGui();
   
-  if (myVolumeSlider.changed) {
+  if (myVolumeSlider.isChanged) {
     // Print a message when myVolumeSlider is changed
     print(myVolumeSlider.label + " = " + myVolumeSlider.val);
     volume = myVolumeSlider.val;
     osc.amp(volume);
   }
   
-  if (myFreqSlider.changed) {
+  if (myFreqSlider.isChanged) {
     // Print a message when myFreqSlider is changed
     print(myFreqSlider.label + " = " + myFreqSlider.val);
     freqV = myFreqSlider.val;

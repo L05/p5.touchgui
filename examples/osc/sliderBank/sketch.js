@@ -35,7 +35,7 @@ function draw() {
   
   // Cycle through sliders and send OSC messages
   for (let i = 0; i < s.length; i++) {
-    if (s[i].changed) {
+    if (s[i].isChanged) {
       sendOsc('/slider' + i, s[i].val);
     }
   }

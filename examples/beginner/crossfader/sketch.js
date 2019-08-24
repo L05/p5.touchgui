@@ -17,7 +17,7 @@ function draw() {
   background(72, 61, 139);
   drawGui();
   
-  if (c.changed) {
+  if (c.isChanged) {
     // Print a message when Crossfader is changed
     // that displays its value.
     print(c.label + " = " + c.val);

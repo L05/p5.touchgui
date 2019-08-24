@@ -49,24 +49,24 @@ function draw() {
   background(220);
   drawGui();
   
-  // Check if GUI object have been .pressed, .changed, .held, or .released
+  // Check if GUI object have been .isPressed, .isChanged, .isHeld, or .isReleased
   // and act accordingly.
-  if(b1.pressed) { print(b1.label + " pressed."); }
-  if(b2.released) { print(b2.label + " released."); }
-  if(s1.changed) { print(s1.label + " = " + s1.val); }
-  if(s2.changed) { print(s2.label + " = " + s2.val); }
-  if(cf1.changed) { print(cf1.label + " = " + cf1.val); }
+  if(b1.isPressed) { print(b1.label + " pressed."); }
+  if(b2.isReleased) { print(b2.label + " released."); }
+  if(s1.isChanged) { print(s1.label + " = " + s1.val); }
+  if(s2.isChanged) { print(s2.label + " = " + s2.val); }
+  if(cf1.isChanged) { print(cf1.label + " = " + cf1.val); }
   
-  if(t1.pressed) {
+  if(t1.isPressed) {
     print(t1.label + " = " + t1.val);
     cf1.visible = t1.val; // Set visibility of Crossfader 1
   }
   
-  if(cb1.released) {
+  if(cb1.isReleased) {
     print(cb1.label + " = " + cb1.val); // prints "on release"
   }
   
-  if(s2d1.changed) {
+  if(s2d1.isChanged) {
     print(s2d1.label + " = {" + s2d1.valX + ", " + s2d1.valY + "}");
   }
   

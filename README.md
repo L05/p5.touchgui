@@ -63,7 +63,7 @@ In an **index.html** file, copy and paste the following and open up that file in
         background(200);
         drawGui();
 
-        if(b.pressed) {
+        if(b.isPressed) {
           print(b.label + " is pressed.");
         }
       }
@@ -109,13 +109,13 @@ function draw() {
   drawGui();
 }
 ```
-4. `if()` your button is `.pressed`, you can choose to perform actions. In this example, we will `print()` a message using the button's `.label`.
+4. `if()` your button is `.isPressed`, you can choose to perform actions. In this example, we will `print()` a message using the button's `.label`.
 ```javascript
 function draw() {
   background(220);
   drawGui();
 
-  if(b.pressed) {
+  if(b.isPressed) {
     print(b.label + " is pressed.");
   }
 }
@@ -136,7 +136,7 @@ function draw() {
   background(220);
   drawGui();
 
-  if(b.pressed) {
+  if(b.isPressed) {
     print(b.label + " is pressed.");
   }
 }

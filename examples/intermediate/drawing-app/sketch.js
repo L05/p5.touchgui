@@ -22,7 +22,7 @@ function setup() {
 
   gui = createGui();
   // Set style to Blue!
-  gui.style.Blue();
+  gui.loadStyle("Blue");
 
   // Create buttons, sliders...
   createControls();
@@ -33,18 +33,15 @@ function createControls() {
   // Create drawing canvas
   rect(myCanvasPos.x, myCanvasPos.y, myCanvasPos.width, myCanvasPos.height);
 
-  // Optional: a way to set the font size, maybe use .labelFontSize?
-  gui.style.labelFontMaxSize = 12;
-  // Optional: A way to change the buttonStroke, maybe bStrokeWt to buttonStrokeWeight?
-  gui.style.bStrokeWt = 1;
-  // Optional: A way to set button corners?
-  gui.style.rounding = 0;
+  // Optional: a way to set the text size
+  gui.setTextSize(12);
+  // Optional: A way to change the stroke weight
+  gui.setStrokeWeight(1);
+  // Optional: A way to set object corners
+  gui.setRounding(0);
 
   // Create Clear Button
   myClearButton = createButton("Clear", 330, 20, 195, 30);
-
-  // Optional: control slider weight? maybe sStrokeWt to sliderStrokeWeight
-  gui.style.sStrokeWt = 1;
 
   text('Stroke Weight:', 330, 65);
   // Create stroke weight slider
@@ -64,7 +61,7 @@ function createControls() {
 
 function draw() {
   drawGui();
-  if (myClearButton.pressed) {
+  if (myClearButton.isPressed) {
     // Print a message when Clear Button is pressed.
     print(myClearButton.label + " pressed.");
     fill(255);
@@ -73,7 +70,7 @@ function draw() {
     // Create drawing canvas again
     rect(myCanvasPos.x, myCanvasPos.y, myCanvasPos.width, myCanvasPos.height);
   }
-  if (myWeightSlider.changed) {
+  if (myWeightSlider.isChanged) {
     // Print a message when myWeightSlider Slider is changed
     print(myWeightSlider.label + " = " + myWeightSlider.val);
     // Set myStrokeWeight to the slides' value
@@ -81,17 +78,17 @@ function draw() {
     // Update the myStrokeWeight value on the canvas
     updateEllipse();
   }
-  if (myColorSliderR.changed) {
+  if (myColorSliderR.isChanged) {
     print(myColorSliderR.label + " = " + myColorSliderR.val);
     myRed = myColorSliderR.val;
     updateEllipse();
   }
-  if (myColorSliderG.changed) {
+  if (myColorSliderG.isChanged) {
     print(myColorSliderG.label + " = " + myColorSliderG.val);
     myGreen = myColorSliderG.val;
     updateEllipse();
   }
-  if (myColorSliderB.changed) {
+  if (myColorSliderB.isChanged) {
     print(myColorSliderB.label + " = " + myColorSliderB.val);
     myBlue = myColorSliderB.val;
     updateEllipse();

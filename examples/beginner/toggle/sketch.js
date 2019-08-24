@@ -15,7 +15,7 @@ function draw() {
   background(220);
   drawGui();
   
-  if (t.pressed) {
+  if (t.isPressed) {
     // Print a message when Toggle is pressed
     // that displays its value.
     print(t.label + " is " + t.val);

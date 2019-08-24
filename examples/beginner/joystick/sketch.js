@@ -27,7 +27,7 @@ function draw() {
   background("#242038");
   drawGui();
   
-  if (j.changed) {
+  if (j.isChanged) {
     // Print a message when Slider 1 is changed
     // that displays its value.
     print(j.label + " = {" + j.valX + ", " + j.valY + "}");

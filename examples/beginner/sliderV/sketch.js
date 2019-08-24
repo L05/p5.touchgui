@@ -17,7 +17,7 @@ function draw() {
   background(220);
   drawGui();
   
-  if (s.changed) {
+  if (s.isChanged) {
     // Print a message when SliderV is changed
     // that displays its value.
     print(s.label + " = " + s.val);

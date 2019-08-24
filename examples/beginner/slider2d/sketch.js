@@ -18,7 +18,7 @@ function draw() {
   background(255, 235, 205);
   drawGui();
   
-  if (s.changed) {
+  if (s.isChanged) {
     // Print a message when Slider2d is changed
     // that displays its value.
     print(s.label + " = {" + s.valX + ", " + s.valY + "}");
