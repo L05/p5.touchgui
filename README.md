@@ -1,5 +1,5 @@
 
-[Home]() | [Reference](REFERENCE.md) | [Development Notes](NOTES.md)
+[Home]() | [Reference](docs/REFERENCE.md) | [Development Notes](docs/NOTES.md)
 
 # p5.touchgui
 
