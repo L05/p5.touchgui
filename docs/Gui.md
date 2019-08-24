@@ -16,9 +16,6 @@
 ### objects[]
 An array of `GuiObject` objects stored within the `Gui`.
 
-### style
-The global `GuiStyle` object. This holds the style presets for `p5.touchgui`.
-
 -----
 
 ## Functions

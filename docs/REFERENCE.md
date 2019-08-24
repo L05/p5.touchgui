@@ -37,7 +37,6 @@
 
 #### [Variables](Gui.md#variables)
 * [objects[]](Gui.md#objects)
-* [style](Gui.md#style)
 
 #### [Functions](Gui.md#functions)
 * [get()](Gui.md#get)
