@@ -48,7 +48,7 @@
 * [setTextSize()](Gui.md#settextsize)
 * [setTrackWidth()](Gui.md#settrackwidth)
 
-#### [Style](Gui.md##Style)
+#### [Style](Gui.md#style)
 
 -----
 
