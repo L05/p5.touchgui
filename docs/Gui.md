@@ -298,20 +298,37 @@ setTrackWidth(ratio)
 These are the preset styles for **p5.touchgui**:
 
 * `"Gray"`
+
 ![Gray preset](../design/Gray.png)
+
 * `"Rose"`
+
 ![Rose preset](../design/Rose.png)
+
 * `"Seafoam"`
+
 ![Seafoam preset](../design/Seafoam.png)
+
 * `"Blue"`
+
 ![Blue preset](../design/Blue.png)
-* `"TerminalGreen"`
+
+* `"TerminalGreen"` (shown on `background(0)`)
+
 ![TerminalGreen preset](../design/TerminalGreen.png)
-* `"TerminalRed"`
+
+* `"TerminalRed"` (shown on `background(0)`)
+
 ![TerminalRed preset](../design/TerminalRed.png)
-* `"TerminalBlue"`
+
+* `"TerminalBlue"` (shown on `background(0)`)
+
 ![TerminalBlue preset](../design/TerminalBlue.png)
-* `"TerminalYellow"`
+
+* `"TerminalYellow"` (shown on `background(0)`)
+
 ![TerminalYellow preset](../design/TerminalYellow.png)
-* `"TerminalMagenta"`
+
+* `"TerminalMagenta"` (shown on `background(0)`)
+
 ![TerminalMagenta preset](../design/TerminalMagenta.png)

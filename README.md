@@ -148,39 +148,41 @@ Congratulations! You've created your first sketch using *p5.touchgui*. If you wa
 # Object Types
 [[Back to top]](#p5touchgui)
 
-* **Button**
+![Blue preset](design/Blue.png)
+
+* **[Button](docs/GuiButton.md)**
 A button with a label that highlights when touched or clicked. When released it turns off.
 <br>
 
-* **Toggle**
+* **[Toggle](docs/GuiToggle.md)**
 A button with a label that highlights when touched or clicked. When touched or clicked again, it turns off.
 <br>
 
-* **Checkbox**
+* **[Checkbox](docs/GuiCheckbox.md)**
 A button with an **X** that turns on when touched or clicked. When touched or clicked again, it turns off.
 <br>
 
-* **Slider**
+* **[Slider](docs/GuiSlider.md)**
 A horizontally oriented slider that can be touched or clicked and dragged side to side to change its value.
 <br>
 
-* **SliderV**
+* **[SliderV](docs/GuiSlider.md)**
 A vertically oriented slider that can be touched or clicked and dragged up and down to change its value.
 <br>
 
-* **Crossfader**
+* **[Crossfader](docs/GuiCrossfader.md)**
 A horizontally oriented crossfader that can be touched or clicked and dragged side to side to change its value. Visually similar to a slider except the indicator extends from the center.
 <br>
 
-* **CrossfaderV**
+* **[CrossfaderV](docs/GuiCrossfader.md)**
 A vertically oriented crossfader that can be touched or clicked and dragged up and down to change its value. Visually similar to a slider except the indicator extends from the center.
 <br>
 
-* **Slider2d**
+* **[Slider2d](docs/GuiSlider2d.md)**
 A two dimensional slider that returns an X/Y pair of values depending on touch or click location.
 <br>
 
-* **Joystick**
+* **[Joystick](docs/GuiJoystick.md)**
 A two dimensional slider that returns an X/Y pair of values relative to a resetting zero point at its center.
 <br>
 
