@@ -240,3 +240,12 @@ In order to run the OSC examples you'll need to do the following:
 
 10. Then point your browser to `http://localhost:8080/index.html` and use the menu to select the OSC examples.
 
+
+# Support
+
+Please use *p5.touchgui* and let me know if you have any feedback!
+
+* Do you **use it in a project**? What works and doesn't work?
+* Do you **teach it in a class**? What works and doesn't work?
+
+Any questions pertaining to this project may be communicated via Issues on the [p5.touchgui GitHub repository](https://github.com/L05/p5.touchgui). Simply create a new Issue and either assign or tag me in the conversation with [@L05](https://github.com/L05).
