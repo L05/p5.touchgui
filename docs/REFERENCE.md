@@ -127,7 +127,7 @@
 
 -----
 
-## [GuiSlider](GuiSlider.md) / GuiSliderV
+## [GuiSlider](GuiSlider.md)
 [[Back to top]](#reference)
 
 #### [Variables](GuiSlider.md#variables)
@@ -143,7 +143,39 @@
 
 -----
 
-## [GuiCrossfader](GuiCrossfader.md) / GuiCrossfaderV
+## [GuiSliderV](GuiSlider.md)
+[[Back to top]](#reference)
+
+#### [Variables](GuiSlider.md#variables)
+* [val](GuiSlider.md#val)
+* [min](GuiSlider.md#min)
+* [max](GuiSlider.md#max)
+* [isInteger](GuiSlider.md#isinteger)
+
+#### [Functions](GuiSlider.md#functions)
+* [setStyle()](GuiSlider.md#setstyle)
+
+#### [Style](GuiSlider.md#style)
+
+-----
+
+## [GuiCrossfader](GuiCrossfader.md)
+[[Back to top]](#reference)
+
+#### [Variables](GuiCrossfader.md#variables)
+* [val](GuiCrossfader.md#val)
+* [min](GuiCrossfader.md#min)
+* [max](GuiCrossfader.md#max)
+* [isInteger](GuiCrossfader.md#isinteger)
+
+#### [Functions](GuiCrossfader.md#functions)
+* [setStyle()](GuiCrossfader.md#setstyle)
+
+#### [Style](GuiCrossfader.md#style)
+
+-----
+
+## [GuiCrossfaderV](GuiCrossfader.md)
 [[Back to top]](#reference)
 
 #### [Variables](GuiCrossfader.md#variables)
