@@ -36,7 +36,7 @@
 [[Back to top]](#reference)
 
 #### [Constructor](Gui.md#constructor)
-* create()[](Gui.md#constructor)
+* [createGui()](Gui.md#constructor)
 
 #### [Variables](Gui.md#variables)
 * [objects[]](Gui.md#objects)
