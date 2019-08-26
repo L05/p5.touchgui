@@ -12,6 +12,7 @@
 * [Examples](#examples)
 * [Reference](docs/REFERENCE.md)
 * [Development Notes](docs/NOTES.md)
+* [Support](#support)
 
 ## Why p5.touchgui?
 
