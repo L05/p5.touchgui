@@ -8,6 +8,8 @@ Crossfader class.
 
 *Note: vertical crossfader class is virtually the same, just with a different orientation.*
 
+![Picture of a p5.touchgui GuiCrossfader](../design/GuiCrossfader.png)
+
 -----
 
 ## [Example](https://editor.p5js.org/L05/sketches/MAUFHrJpg)
