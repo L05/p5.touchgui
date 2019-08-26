@@ -1,4 +1,3 @@
-
 [Home]() | [Reference](docs/REFERENCE.md) | [Development Notes](docs/NOTES.md)
 
 # p5.touchgui
@@ -18,7 +17,9 @@
 
 [*p5.js*](https://p5js.org) is a wonderfully accessible way for students and creative minds to both learn computer programming and create interactive art and experiences. 
 
-*p5.touchgui* is intended to extend *p5.js* and make it easy to add buttons, sliders, and other GUI (graphical user interface) objects to your *p5.js* sketches, enabling you to focus on quickly iterating ideas with easily created GUI objects that work with both mouse and multi-touch input. 
+*p5.touchgui* is intended to extend *p5.js* and make it easy to add buttons, sliders, and other GUI (graphical user interface) objects to your *p5.js* sketches, enabling you to focus on quickly iterating ideas with easily created GUI objects that work with both mouse and multi-touch input.
+
+If you'd like to read more about the process, please check out my [Google Summer of Code report](docs/L05_gsoc_2019.md).
 
 # Getting Started
 
