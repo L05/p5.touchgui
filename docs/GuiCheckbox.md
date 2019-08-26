@@ -6,6 +6,8 @@
 ## Description
 Checkbox class.
 
+![Picture of a p5.touchgui GuiCheckbox](../design/GuiCheckbox.png)
+
 -----
 
 ## [Example](https://editor.p5js.org/L05/sketches/Kn1ecx6wv)

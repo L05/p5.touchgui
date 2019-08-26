@@ -6,6 +6,8 @@
 ## Description
 Toggle button class.
 
+![Picture of a p5.touchgui GuiToggle](../design/GuiToggle.png)
+
 -----
 
 ## [Example](https://editor.p5js.org/L05/sketches/WUVbr_uqV)

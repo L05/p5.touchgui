@@ -127,7 +127,7 @@
 
 -----
 
-## [GuiSlider / GuiSliderV](GuiSlider.md)
+## [GuiSlider](GuiSlider.md) / GuiSliderV
 [[Back to top]](#reference)
 
 #### [Variables](GuiSlider.md#variables)
@@ -143,7 +143,7 @@
 
 -----
 
-## [GuiCrossfader / GuiCrossfaderV](GuiCrossfader.md)
+## [GuiCrossfader](GuiCrossfader.md) / GuiCrossfaderV
 [[Back to top]](#reference)
 
 #### [Variables](GuiCrossfader.md#variables)

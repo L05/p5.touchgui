@@ -6,6 +6,8 @@
 ## Description
 Momentary button class.
 
+![Picture of a p5.touchgui GuiButton](../design/GuiButton.png)
+
 -----
 
 ## [Example](https://editor.p5js.org/L05/sketches/6ETiBjotm)

@@ -9,6 +9,7 @@ function setup() {
   
   // Create Button
   b = createButton("Button", 100, 50, 200, 50);
+  save("TEST.png")
 }
 
 function draw() {

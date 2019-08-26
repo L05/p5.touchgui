@@ -6,6 +6,8 @@
 ## Description
 Two-dimensional slider (trackpad) class.
 
+![Picture of a p5.touchgui GuiSlider2d](../design/GuiSlider2d.png)
+
 -----
 
 ## [Example](https://editor.p5js.org/L05/sketches/xkA_bxh4_)

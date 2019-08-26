@@ -4,11 +4,16 @@ let gui;
 let cb1;
 
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(400, 200);
   gui = createGui();
   
   // Create Checkbox
   cb1 = createCheckbox("Checkbox", 150, 50, 100, 100);
+  cb1.val = 1
+  background(255)
+  drawGui()
+  save("GuiCheckbox.png")
+
 }
 
 function draw() {

@@ -6,6 +6,8 @@
 ## Description
 Joystick class. This is similar to `GuiSlider2d` except that the handle snaps back to the center point when input is released.
 
+![Picture of a p5.touchgui GuiJoystick](../design/GuiJoystick.png)
+
 -----
 
 ## [Example](https://editor.p5js.org/L05/sketches/l-66JjVKt)
