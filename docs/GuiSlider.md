@@ -8,6 +8,8 @@ Slider class.
 
 *Note: vertical slider class is virtually the same, just with a different orientation.*
 
+![Picture of a p5.touchgui GuiSlider](../design/GuiSlider.png)
+
 -----
 
 ## [Example](https://editor.p5js.org/L05/sketches/urlZ9XCsZ)

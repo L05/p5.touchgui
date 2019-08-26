@@ -68,7 +68,7 @@ function touchMoved() {
 
 ## Variables
 ### val
-[[Back to top]](#joystick)
+[[Back to top]](#guijoystick)
 
 ##### Example
 ```javascript
@@ -87,7 +87,7 @@ Value of the `GuiJoystick` returned as object `{x: valX, y: valY}`.
 -----
 
 ### valX
-[[Back to top]](#joystick)
+[[Back to top]](#guijoystick)
 
 ##### Example
 ```javascript
@@ -105,7 +105,7 @@ X value of the `GuiJoystick`.
 -----
 
 ### valY
-[[Back to top]](#joystick)
+[[Back to top]](#guijoystick)
 
 ##### Example
 ```javascript
@@ -123,7 +123,7 @@ Y value of the `GuiJoystick`.
 -----
 
 ### minX
-[[Back to top]](#joystick)
+[[Back to top]](#guijoystick)
 
 ##### Example
 ```javascript
@@ -136,7 +136,7 @@ Lower x bound of the `GuiJoystick` range.
 -----
 
 ### maxX
-[[Back to top]](#joystick)
+[[Back to top]](#guijoystick)
 
 ##### Example
 ```javascript
@@ -149,7 +149,7 @@ Upper x bound of the `GuiJoystick` range.
 -----
 
 ### minY
-[[Back to top]](#joystick)
+[[Back to top]](#guijoystick)
 
 ##### Example
 ```javascript
@@ -162,7 +162,7 @@ Lower y bound of the `GuiJoystick` range.
 -----
 
 ### maxY
-[[Back to top]](#joystick)
+[[Back to top]](#guijoystick)
 
 ##### Example
 ```javascript
@@ -178,7 +178,7 @@ Upper y bound of the `GuiJoystick` range.
 
 -----
 ### setStyle()
-[[Back to top]](#joystick)
+[[Back to top]](#guijoystick)
 
 ##### Example
 ```javascript
@@ -212,7 +212,7 @@ setStyle(Object)
 -----
 
 ## Style
-[[Back to top]](#joystick)
+[[Back to top]](#guijoystick)
 
 The `GuiJoystick` style properties are:
 * `strokeWeight` Number: the weight (in pixels) of the stroke
