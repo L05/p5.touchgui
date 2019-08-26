@@ -1,7 +1,7 @@
 [Home](../README.md) | [Reference](REFERENCE.md)
 
 # GuiToggle
-[Example](#example) | [Variables](#variables) | [Functions](#functions)
+[Example](#example) | [Constructor](#constructor) | [Variables](#variables) | [Functions](#functions)
 
 ## Description
 Toggle button class.

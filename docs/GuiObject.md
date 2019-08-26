@@ -1,6 +1,8 @@
 [Home](../README.md) | [Reference](REFERENCE.md)
 
 # GuiObject
+[Variables](#variables) | [Functions](#functions)
+
 ## Description
 
 `GuiObject` is the parent class for all **p5.touchgui** objects. All `GuiObject` objects have the variables and functions described below.

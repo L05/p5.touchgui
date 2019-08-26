@@ -1,7 +1,7 @@
 [Home](../README.md) | [Reference](REFERENCE.md)
 
 # GuiJoystick
-[Example](#example) | [Variables](#variables) | [Functions](#functions)
+[Example](#example) | [Constructor](#constructor) | [Variables](#variables) | [Functions](#functions)
 
 ## Description
 Joystick class. This is similar to `GuiSlider2d` except that the handle snaps back to the center point when input is released.

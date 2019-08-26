@@ -1,6 +1,7 @@
 [Home](../README.md) | [Reference](REFERENCE.md)
 
 # Gui
+[Constructor](#constructor) | [Variables](#variables) | [Functions](#functions)
 
 ## Description
 
@@ -13,7 +14,8 @@
 -----
 
 ### createGui()
-[[Back to top]](#global-functions)
+[[Back to top]](#description)
+
 ##### Example
 ```javascript
 let gui;

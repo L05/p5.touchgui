@@ -1,7 +1,7 @@
 [Home](../README.md) | [Reference](REFERENCE.md)
 
 # GuiSlider2d
-[Example](#example) | [Variables](#variables) | [Functions](#functions)
+[Example](#example) | [Constructor](#constructor) | [Variables](#variables) | [Functions](#functions)
 
 ## Description
 Two-dimensional slider (trackpad) class.
