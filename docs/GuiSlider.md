@@ -59,7 +59,7 @@ function touchMoved() {
 
 
 ### createSlider()
-[[Back to top]](#global-functions)
+[[Back to top]](#description)
 
 ##### Example
 ```javascript

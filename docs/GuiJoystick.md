@@ -71,7 +71,8 @@ function touchMoved() {
 -----
 
 ### createJoystick()
-[[Back to top]](#global-functions)
+[[Back to top]](#description)
+
 ##### Example
 ```javascript
 let gui;

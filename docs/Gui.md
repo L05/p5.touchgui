@@ -8,6 +8,38 @@
 
 -----
 
+## Constructor
+
+-----
+
+### createGui()
+[[Back to top]](#global-functions)
+##### Example
+```javascript
+let gui;
+
+function setup() {
+    createCanvas(400, 400);
+    gui = createGui();
+}
+
+```
+##### Description
+Creates a new `Gui` object, which retains and computes all of the information regarding your GUI, including style, user input, and object states. This should be called from within your sketch's `setup()` function.
+
+##### Syntax
+```javascript
+createGui()
+```
+
+##### Parameters
+`None`
+
+##### Returns
+`Gui`
+
+-----
+
 ## Variables
 
 -----

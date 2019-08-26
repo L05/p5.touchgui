@@ -57,7 +57,8 @@ function touchMoved() {
 -----
 
 ### createSlider2d()
-[[Back to top]](#global-functions)
+[[Back to top]](#description)
+
 ##### Example
 ```javascript
 let gui;

@@ -55,7 +55,8 @@ function touchMoved() {
 -----
 
 ### createButton()
-[[Back to top]](#global-functions)
+[[Back to top]](#description)
+
 ##### Example
 ```javascript
 let gui;

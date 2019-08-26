@@ -35,6 +35,9 @@
 ## [Gui](Gui.md)
 [[Back to top]](#reference)
 
+#### [Constructor](Gui.md#constructor)
+* create()[](Gui.md#constructor)
+
 #### [Variables](Gui.md#variables)
 * [objects[]](Gui.md#objects)
 
@@ -85,6 +88,9 @@
 ## [GuiButton](GuiButton.md)
 [[Back to top]](#reference)
 
+#### [Constructor](GuiButton.md#constructor)
+* [createButton()](GuiButton.md#constructor)
+
 #### [Variables](GuiButton.md#variables)
 * [val](GuiButton.md#val)
 * [label](GuiButton.md#label)
@@ -100,6 +106,9 @@
 
 ## [GuiToggle](GuiToggle.md)
 [[Back to top]](#reference)
+
+#### [Constructor](GuiToggle.md#constructor)
+* [createToggle()](GuiToggle.md#constructor)
 
 #### [Variables](GuiToggle.md#variables)
 * [val](GuiToggle.md#val)
@@ -117,6 +126,9 @@
 ## [GuiChecbox](GuiCheckbox.md)
 [[Back to top]](#reference)
 
+#### [Constructor](GuiCheckbox.md#constructor)
+* [createCheckbox()](GuiCheckbox.md#constructor)
+
 #### [Variables](GuiCheckbox.md#variables)
 * [val](GuiCheckbox.md#val)
 
@@ -129,6 +141,9 @@
 
 ## [GuiSlider](GuiSlider.md)
 [[Back to top]](#reference)
+
+#### [Constructor](GuiSlider.md#constructor)
+* [createSlider()](GuiSlider.md#constructor)
 
 #### [Variables](GuiSlider.md#variables)
 * [val](GuiSlider.md#val)
@@ -146,6 +161,9 @@
 ## [GuiSliderV](GuiSlider.md)
 [[Back to top]](#reference)
 
+#### [Constructor](GuiSlider.md#constructor)
+* [createSliderV()](GuiSlider.md#constructor)
+
 #### [Variables](GuiSlider.md#variables)
 * [val](GuiSlider.md#val)
 * [min](GuiSlider.md#min)
@@ -161,6 +179,9 @@
 
 ## [GuiCrossfader](GuiCrossfader.md)
 [[Back to top]](#reference)
+
+#### [Constructor](GuiCrossfader.md#constructor)
+* [createCrossfader()](GuiCrossfader.md#constructor)
 
 #### [Variables](GuiCrossfader.md#variables)
 * [val](GuiCrossfader.md#val)
@@ -178,6 +199,9 @@
 ## [GuiCrossfaderV](GuiCrossfader.md)
 [[Back to top]](#reference)
 
+#### [Constructor](GuiCrossfader.md#constructor)
+* [createCrossfaderV()](GuiCrossfader.md#constructor)
+
 #### [Variables](GuiCrossfader.md#variables)
 * [val](GuiCrossfader.md#val)
 * [min](GuiCrossfader.md#min)
@@ -193,6 +217,9 @@
 
 ## [GuiSlider2d](GuiSlider2d.md)
 [[Back to top]](#reference)
+
+#### [Constructor](GuiSlider2d.md#constructor)
+* [createSlider2d()](GuiSlider2d.md#constructor)
 
 #### [Variables](GuiSlider2d.md#variables)
 * [val](GuiSlider2d.md#val)
@@ -213,6 +240,9 @@
 
 ## [GuiJoystick](GuiJoystick.md)
 [[Back to top]](#reference)
+
+#### [Constructor](GuiJoystick.md#constructor)
+* [createJoystick()](GuiJoystick.md#constructor)
 
 #### [Variables](GuiJoystick.md#variables)
 * [val](GuiJoystick.md#val)
