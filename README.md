@@ -40,7 +40,7 @@ In an **index.html** file, copy and paste the following and open up that file in
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Getting Started with ml5.js</title>
+    <title>Getting Started with p5.touchgui</title>
     <!-- p5 -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
