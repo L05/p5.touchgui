@@ -50,6 +50,44 @@ function touchMoved() {
 
 -----
 
+## Constructor
+
+-----
+
+### createButton()
+[[Back to top]](#global-functions)
+##### Example
+```javascript
+let gui;
+let b;
+
+function setup() {
+    createCanvas(400, 400);
+    gui = createGui();
+    b = createButton("Button", 50, 50);
+}
+
+```
+##### Description
+Creates a new `GuiButton` object. This is a momentary button.
+
+##### Syntax
+```javascript
+createButton(label, x, y, [w], [h])
+```
+
+##### Parameters
+* `label`  String: label for the GuiButton 
+* `x`  Number: x-coordinate of the GuiButton 
+* `y`  Number: y-coordinate of the GuiButton 
+* `w`  Number: width of the GuiButton (default is 128) 
+* `h`  Number: height of the GuiButton (default is 32) 
+
+##### Returns
+`GuiButton`
+
+-----
+
 ## Variables
 
 -----

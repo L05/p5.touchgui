@@ -66,6 +66,48 @@ function touchMoved() {
 
 -----
 
+## Constructor
+
+-----
+
+### createJoystick()
+[[Back to top]](#global-functions)
+##### Example
+```javascript
+let gui;
+let j;
+
+function setup() {
+    createCanvas(400, 400);
+    gui = createGui();
+    j = createJoystick("Joystick", 50, 50);
+}
+
+```
+##### Description
+Creates a new `GuiJoystick` object. This is a 2 dimensional slider, and the handle snaps back to the center.
+
+##### Syntax
+```javascript
+createJoystick(label, x, y, [w], [h], [minX], [maxX], [maxX], [maxY])
+```
+
+##### Parameters
+* `label`  String: label for the GuiJoystick 
+* `x`  Number: x-coordinate of the GuiJoystick 
+* `y`  Number: y-coordinate of the GuiJoystick 
+* `w`  Number: width of the GuiJoystick (default is 256) 
+* `h`  Number: height of the GuiJoystick (default is 256) 
+* `minX`  Number: lower bound of the value's x range (default value is -1) 
+* `maxX`  Number: upper bound of the value's x range (default value is 1) 
+* `minY`  Number: lower bound of the value's y range (default value is -1) 
+* `maxY`  Number: upper bound of the value's y range (default value is 1) 
+
+##### Returns
+`GuiJoystick`
+
+-----
+
 ## Variables
 ### val
 [[Back to top]](#guijoystick)

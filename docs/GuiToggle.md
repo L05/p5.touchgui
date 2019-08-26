@@ -51,6 +51,45 @@ function touchMoved() {
 
 -----
 
+## Constructor
+
+-----
+
+### createToggle()
+[[Back to top]](#global-functions)
+##### Example
+```javascript
+let gui;
+let t;
+
+function setup() {
+    createCanvas(400, 400);
+    gui = createGui();
+    t = createToggle("Toggle", 50, 50);
+}
+
+```
+##### Description
+Creates a new `GuiToggle` object. This is a toggle button.
+
+##### Syntax
+```javascript
+createToggle(label, x, y, [w], [h], [defaultVal])
+```
+
+##### Parameters
+* `label`  String: label for the GuiToggle 
+* `x`  Number: x-coordinate of the GuiToggle 
+* `y`  Number: y-coordinate of the GuiToggle 
+* `w`  Number: width of the GuiToggle (default is 128) 
+* `h`  Number: height of the GuiToggle (default is 32) 
+* `defaultVal`  Number: default value for your GuiToggle (default is `false`) 
+
+##### Returns
+`GuiToggle`
+
+-----
+
 ## Variables
 
 -----

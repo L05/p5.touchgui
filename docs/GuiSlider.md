@@ -53,6 +53,50 @@ function touchMoved() {
 
 -----
 
+## Constructor
+
+-----
+
+
+### createSlider()
+[[Back to top]](#global-functions)
+
+##### Example
+```javascript
+let gui;
+let s;
+
+function setup() {
+    createCanvas(400, 400);
+    gui = createGui();
+    s = createSlider("Slider", 50, 50);
+}
+
+```
+##### Description
+Creates a new `GuiSlider` object. This is a horizontal slider. 
+
+*Note: For a vertical slider, instead use `createSliderV()`.*
+
+##### Syntax
+```javascript
+createSlider(label, x, y, [w], [h], [min], [max])
+```
+
+##### Parameters
+* `label`  String: label for the GuiSlider 
+* `x`  Number: x-coordinate of the GuiSlider 
+* `y`  Number: y-coordinate of the GuiSlider 
+* `w`  Number: width of the GuiSlider (default is 128) 
+* `h`  Number: height of the GuiSlider (default is 32) 
+* `min`  Number: lower bound of the value's range (default value is 0) 
+* `max`  Number: upper bound of the value's range (default value is 1) 
+
+##### Returns
+`GuiSlider`
+
+-----
+
 ## Variables
 
 -----

@@ -50,6 +50,46 @@ function touchMoved() {
 ```
 
 -----
+
+## Constructor
+
+-----
+
+### createCheckbox()
+[[Back to top]](#global-functions)
+##### Example
+```javascript
+let gui;
+let cb;
+
+function setup() {
+    createCanvas(400, 400);
+    gui = createGui();
+    cb = createCheckbox("Checkbox", 50, 50);
+}
+
+```
+##### Description
+Creates a new `GuiCheckbox` object. This is a checkbox which functions like a toggle button.
+
+##### Syntax
+```javascript
+createCheckbox(label, x, y, [w], [h], [defaultVal])
+```
+
+##### Parameters
+* `label`  String: label for the GuiCheckbox 
+* `x`  Number: x-coordinate of the GuiCheckbox 
+* `y`  Number: y-coordinate of the GuiCheckbox 
+* `w`  Number: width of the GuiCheckbox (default is 32) 
+* `h`  Number: height of the GuiCheckbox (default is 32) 
+* `defaultVal`  Number: default value for your GuiCheckbox (default is `false`) 
+
+##### Returns
+`GuiCheckbox`
+
+-----
+
 ## Variables
 
 -----

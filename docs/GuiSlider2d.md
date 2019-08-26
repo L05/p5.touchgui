@@ -52,7 +52,52 @@ function touchMoved() {
 
 -----
 
+## Constructor
+
+-----
+
+### createSlider2d()
+[[Back to top]](#global-functions)
+##### Example
+```javascript
+let gui;
+let s2d;
+
+function setup() {
+    createCanvas(400, 400);
+    gui = createGui();
+    s2d = createSlider2d("Slider2d", 50, 50);
+}
+
+```
+##### Description
+Creates a new `GuiSlider2d` object. This is a 2 dimensional slider.
+
+##### Syntax
+```javascript
+createSlider2d(label, x, y, [w], [h], [minX], [maxX], [maxX], [maxY])
+```
+
+##### Parameters
+* `label`  String: label for the GuiSlider2d 
+* `x`  Number: x-coordinate of the GuiSlider2d 
+* `y`  Number: y-coordinate of the GuiSlider2d 
+* `w`  Number: width of the GuiSlider2d (default is 256) 
+* `h`  Number: height of the GuiSlider2d (default is 256) 
+* `minX`  Number: lower bound of the value's x range (default value is -1) 
+* `maxX`  Number: upper bound of the value's x range (default value is 1) 
+* `minY`  Number: lower bound of the value's y range (default value is -1) 
+* `maxY`  Number: upper bound of the value's y range (default value is 1) 
+
+##### Returns
+`GuiSlider2d`
+
+-----
+
 ## Variables
+
+-----
+
 ### val
 [[Back to top]](#guislider2d)
 

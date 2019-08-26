@@ -54,6 +54,48 @@ function touchMoved() {
 
 -----
 
+## Constructor
+
+-----
+
+### createCrossfader()
+[[Back to top]](#global-functions)
+##### Example
+```javascript
+let gui;
+let cf;
+
+function setup() {
+    createCanvas(400, 400);
+    gui = createGui();
+    cf = createCrossfader("Crossfader", 50, 50);
+}
+
+```
+##### Description
+Creates a new `GuiCrossfader` object. This is a horizontal slider with a center point.
+
+*Note: For a vertical crossfader, instead use `createCrossfaderV()`.*
+
+##### Syntax
+```javascript
+createCrossfader(label, x, y, [w], [h], [min], [max])
+```
+
+##### Parameters
+* `label`  String: label for the GuiCrossfader 
+* `x`  Number: x-coordinate of the GuiCrossfader 
+* `y`  Number: y-coordinate of the GuiCrossfader 
+* `w`  Number: width of the GuiCrossfader (default is 128) 
+* `h`  Number: height of the GuiCrossfader (default is 32) 
+* `min`  Number: lower bound of the value's range (default value is -1) 
+* `max`  Number: upper bound of the value's range (default value is 1) 
+
+##### Returns
+`GuiCrossfader`
+
+-----
+
 ## Variables
 
 -----
