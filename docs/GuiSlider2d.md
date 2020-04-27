@@ -76,7 +76,7 @@ Creates a new `GuiSlider2d` object. This is a 2 dimensional slider.
 
 ##### Syntax
 ```javascript
-createSlider2d(label, x, y, [w], [h], [minX], [maxX], [maxX], [maxY])
+createSlider2d(label, x, y, [w], [h], [minX], [maxX], [minY], [maxY])
 ```
 
 ##### Parameters
