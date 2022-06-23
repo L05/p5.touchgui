@@ -28,7 +28,7 @@
   "homepage": "https://github.com/L05/p5.touchgui#readme",
   "devDependencies": {
     "chai": "4.2.0",
-    "jsdom": "15.1.1",
+    "jsdom": "16.5.0",
     "jsdom-global": "3.0.2",
     "mocha": "6.1.4"
   },
